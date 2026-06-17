@@ -1,61 +1,73 @@
 # CONTEXT LOADING ORDER
 
-## Version: 1.0
+## Version: 2.0
 ## Date: 2026-06-17
+## Updated: Token-efficiency revision
 
 ---
 
 ## Purpose
-Defines the exact sequence in which Claude must load context files at the start of each session.
+
+GitHub Context OS is a **token-efficiency layer**, not a full-context reload system.
+Load only the minimum context required for the task.
+Do not run the full sequence as a ritual.
 
 ---
 
-## Mandatory Loading Sequence
+## 1. Default Minimal Load
+
+Run these 4 files at the start of every session:
 
 ```
 STEP 1  →  00_CONTEXT_CORE/SESSION_INIT.md
-           (Start here every session)
+           (Session startup checklist)
 
-           STEP 2  →  00_CONTEXT_CORE/CONTEXT_OS_MANIFEST.md
-                      (Understand the full system structure)
+STEP 2  →  04_CLAUDE_INSTRUCTIONS/SYSTEM_PROMPT.md
+           (Active operating identity and rules)
 
-                      STEP 3  →  00_CONTEXT_CORE/MASTER_INSTRUCTION_SET.md
-                                 (Load operating rules)
+STEP 3  →  01_MEMORY_LAYERS/SHORT_TERM_CONTEXT.md
+           (What happened last session)
 
-                                 STEP 4  →  04_CLAUDE_INSTRUCTIONS/BEHAVIOR_RULES.md
-                                            (Load behaviour rules)
+STEP 4  →  02_OPERATIONAL_FILES/ACTIVE_TASKS.md
+           (Current task state)
+```
 
-                                            STEP 5  →  01_MEMORY_LAYERS/LONG_TERM_MEMORY.md
-                                                       (Load persistent knowledge)
+These 4 files are the complete default load. Stop here unless a conditional trigger applies.
 
-                                                       STEP 6  →  01_MEMORY_LAYERS/SHORT_TERM_CONTEXT.md
-                                                                  (Load recent session context)
+---
 
-                                                                  STEP 7  →  02_OPERATIONAL_FILES/ACTIVE_TASKS.md
-                                                                             (Load current task state)
+## 2. Conditional Load
 
-                                                                             STEP 8  →  02_OPERATIONAL_FILES/PROJECT_REGISTRY.md
-                                                                                        (Confirm active project)
-                                                                                        ```
+Load additional files only when a specific trigger arises. Do not pre-load.
 
-                                                                                        ---
+| File | Load Only When |
+|------|----------------|
+| `00_CONTEXT_CORE/CONTEXT_OS_MANIFEST.md` | Claude needs the full repo structure |
+| `00_CONTEXT_CORE/MASTER_INSTRUCTION_SET.md` | Operating rules are unclear or behaviour drifts |
+| `04_CLAUDE_INSTRUCTIONS/BEHAVIOR_RULES.md` | Tone or execution behaviour needs correction |
+| `01_MEMORY_LAYERS/LONG_TERM_MEMORY.md` | After context loss or a major reset |
+| `02_OPERATIONAL_FILES/PROJECT_REGISTRY.md` | Active project is unclear |
+| `02_OPERATIONAL_FILES/ASSET_INDEX.md` | Locating or checking an asset |
+| `03_PROTOCOL_ENGINE/RESET_PROTOCOL.md` | During a reset |
+| `03_PROTOCOL_ENGINE/ESCALATION_PROTOCOL.md` | When blocked and cannot proceed |
+| `03_PROTOCOL_ENGINE/HANDOFF_PROTOCOL.md` | At session close |
+| `05_ARCHIVE/CHANGELOG.md` | During audit or history review |
 
-                                                                                        ## Optional Loading (load on demand)
+---
 
-                                                                                        | File | When to Load |
-                                                                                        |------|--------------|
-                                                                                        | WORKING_MEMORY.md | When resuming mid-task |
-                                                                                        | ASSET_INDEX.md | When referencing assets |
-                                                                                        | RESET_PROTOCOL.md | When a reset is needed |
-                                                                                        | ESCALATION_PROTOCOL.md | When an issue cannot be resolved |
-                                                                                        | HANDOFF_PROTOCOL.md | At end of session |
-                                                                                        | CHANGELOG.md | When reviewing history |
+## 3. Boundary Note
 
-                                                                                        ---
-
-                                                                                        ## Loading Confirmation
-                                                                                        After completing the mandatory sequence, Claude should state:
-                                                                                        > "Context OS loaded. [N] files read. Active project: [PROJECT]. Ready."
-
-                                                                                        ---
-                                                                                        _Keep this file updated if the loading order changes._
+> **GitHub Context OS exists to reduce token usage by loading only the minimum context required for the task. It must not become a full-context ritual. Google Drive remains the source of truth for full Coffee Performance files.**
+>
+> ---
+>
+> ## Loading Confirmation
+>
+> After completing the default minimal load, Claude should state:
+> > "Minimal context loaded. [4 files]. Active tasks reviewed. Ready."
+> >
+> > Only if conditional files were also loaded:
+> > > "Context loaded. [N] files. Triggered by: [reason]. Ready."
+> > >
+> > > ---
+> > > _Keep this file updated if trigger conditions change. Version history in 05_ARCHIVE/CHANGELOG.md_
