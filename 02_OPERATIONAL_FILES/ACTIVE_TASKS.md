@@ -1,6 +1,6 @@
 ---
 Title: "ACTIVE TASKS"
-Version: 1.2
+Version: 1.3
 Last Updated: 2026-06-17
 ---
 
@@ -24,6 +24,7 @@ This file tracks all active tasks across projects.
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
 | 1 | Verify Context OS V2 operational use in future sessions | GitHub-Context-OS | NanaCoffee | 2026-06-17 | [x] |
+| 2 | Run LinkedIn Post 01 48-hour performance review and decide Post 02 publish timing | Nas LinkedIn Optimisation | NanaCoffee | - | [~] |
 
 ---
 
