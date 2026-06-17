@@ -1,8 +1,7 @@
-# ACTIVE TASKS
-
-## Version: 1.0
-## Last Updated: 2026-06-17
-
+---
+Title: "ACTIVE TASKS"
+Version: 1.1
+Last Updated: 2026-06-17
 ---
 
 ## Task Board
@@ -12,6 +11,7 @@ This file tracks all active tasks across projects.
 ---
 
 ## STATUS KEY
+
 - `[ ]` = Not started
 - `[~]` = In progress
 - `[x]` = Complete
@@ -23,13 +23,17 @@ This file tracks all active tasks across projects.
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | Populate all Context OS template files | GitHub-Context-OS | NanaCoffee | - | [~] |
+| 1 | Verify Context OS V2 operational use in future sessions | GitHub-Context-OS | NanaCoffee | - | [~] |
+
+---
 
 ## PRIORITY 2 — High
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
 | 1 | - | - | - | - | [ ] |
+
+---
 
 ## PRIORITY 3 — Normal
 
@@ -40,9 +44,23 @@ This file tracks all active tasks across projects.
 ---
 
 ## Recently Completed
+
 | Task | Completed Date |
-|------|---------------|
+|------|----------------|
 | Created GitHub-Context-OS repository | 2026-06-17 |
+| Updated CONTEXT_LOADING_ORDER.md to v2.0 | 2026-06-17 |
+| Aligned SESSION_INIT.md to v2.0 | 2026-06-17 |
+| Aligned SYSTEM_PROMPT.md to v2.0 | 2026-06-17 |
+| Created COMMANDS.md | 2026-06-17 |
+| Fixed COMMANDS.md YAML frontmatter warning | 2026-06-17 |
+| Fixed COMMANDS.md YAML frontmatter title | 2026-06-17 |
+| COMMANDS.md approved and operational | 2026-06-17 |
 
 ---
-_Update this file at start and end of every session._
+
+## Notes
+
+- Use `02_OPERATIONAL_FILES/COMMANDS.md` as the command reference for all sessions.
+- No further patch needed unless command recognition or loading behaviour fails.
+
+Update this file at start and end of every session.
