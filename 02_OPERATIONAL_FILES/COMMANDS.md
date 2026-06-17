@@ -1,5 +1,5 @@
 ---
-COMMANDS
+Title: "COMMANDS"
 Version: 1.0
 Date: 2026-06-17
 Workstream: "GitHub Context OS / Token Efficiency"
