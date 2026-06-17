@@ -1,6 +1,6 @@
 ---
 Title: "ACTIVE TASKS"
-Version: 1.1
+Version: 1.2
 Last Updated: 2026-06-17
 ---
 
@@ -23,7 +23,7 @@ This file tracks all active tasks across projects.
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | Verify Context OS V2 operational use in future sessions | GitHub-Context-OS | NanaCoffee | - | [~] |
+| 1 | Verify Context OS V2 operational use in future sessions | GitHub-Context-OS | NanaCoffee | 2026-06-17 | [x] |
 
 ---
 
@@ -55,6 +55,7 @@ This file tracks all active tasks across projects.
 | Fixed COMMANDS.md YAML frontmatter warning | 2026-06-17 |
 | Fixed COMMANDS.md YAML frontmatter title | 2026-06-17 |
 | COMMANDS.md approved and operational | 2026-06-17 |
+| Context OS V2 verification passed | 2026-06-17 |
 
 ---
 
@@ -62,5 +63,6 @@ This file tracks all active tasks across projects.
 
 - Use `02_OPERATIONAL_FILES/COMMANDS.md` as the command reference for all sessions.
 - No further patch needed unless command recognition or loading behaviour fails.
+- Context OS V2 verified in fresh session. Default load and command recognition passed. No further build work required unless behaviour drifts.
 
 Update this file at start and end of every session.
