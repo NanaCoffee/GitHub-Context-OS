@@ -244,3 +244,118 @@ Run this loop when the user asks for any of the following:
                                                                                                                         - - product quality
                                                                                                                           - - café operations
                                                                                                                             - - real-world observations
+
+
+---
+
+### GitHub Context Update Rule
+
+#### Purpose
+
+Claude must treat GitHub Context OS as the compressed operating memory layer for the project.
+
+After completing any meaningful workflow, Claude must check whether the GitHub Context Update Loop should run.
+
+This reduces repeated prompting, prevents context loss, and improves token efficiency across future sessions.
+
+#### When to Run
+
+Run the GitHub Context Update Loop after meaningful state changes, including:
+- A LinkedIn post is published
+- - A LinkedIn post performance review is completed
+  - - A post follow-up DM is sent
+    - - A reusable workflow is added
+      - - A Drive cleanup batch is completed
+        - - A project task changes status
+          - - A next action changes
+            - - A major decision is approved
+              - - A new important contact, relationship, or opportunity is created
+                - - A file location or asset status changes
+                  - - A session ends with useful progress that should be preserved
+                   
+                    - #### When Not to Run
+                   
+                    - Do not update GitHub after minor actions, including:
+                    - - Tiny wording edits
+                      - - Simple confirmations
+                        - - One-off advice
+                          - - Temporary drafts that were not approved
+                            - - Actions that do not change project state
+                              - - Duplicate notes already recorded elsewhere
+                               
+                                - #### Files to Consider
+                               
+                                - When the loop runs, update only the files that are relevant.
+                               
+                                - **`01_MEMORY_LAYERS/SHORT_TERM_CONTEXT.md`** — Use for:
+                                - - What happened this session
+                                  - - What was completed
+                                    - - What is active now
+                                      - - What the next checkpoint is
+                                        - - What should not be repeated
+                                         
+                                          - **`02_OPERATIONAL_FILES/ACTIVE_TASKS.md`** — Use for:
+                                          - - Current task status
+                                            - - Completed task updates
+                                              - - Next active task
+                                                - - Checkpoint dates or review windows
+                                                 
+                                                  - **`02_OPERATIONAL_FILES/ASSET_INDEX.md`** — Use only when:
+                                                  - - A new important asset was created
+                                                    - - A post URL needs recording
+                                                      - - A Drive file/location changed
+                                                        - - An external reference needs indexing
+                                                         
+                                                          - **`01_MEMORY_LAYERS/LONG_TERM_MEMORY.md`** — Use only when:
+                                                          - - A stable project rule is approved
+                                                            - - A repeated workflow becomes permanent
+                                                              - - A major strategic decision is made
+                                                                - - A durable operating principle is created
+                                                                 
+                                                                  - #### Commit Rule
+                                                                 
+                                                                  - After updating GitHub files, Claude must commit the changes.
+                                                                 
+                                                                  - Commit message format: `Update context after [workflow/task name]`
+                                                                 
+                                                                  - Examples:
+                                                                  - - `Update context after Oliiv LinkedIn post`
+                                                                    - - `Update context after LinkedIn performance review`
+                                                                      - - `Add LinkedIn Post Execution Loop`
+                                                                        - - `Update active tasks after Drive cleanup`
+                                                                          - - `Record GitHub Context Update Rule`
+                                                                           
+                                                                            - #### Reporting Format
+                                                                           
+                                                                            - After completing a GitHub Context update, report:
+                                                                           
+                                                                            - ```
+                                                                              TASK:
+                                                                              STATUS:
+                                                                              FILES UPDATED:
+                                                                              SUMMARY OF CHANGES:
+                                                                              COMMIT MADE:
+                                                                              COMMIT MESSAGE:
+                                                                              COMMIT HASH:
+                                                                              ISSUES:
+                                                                              NEXT ACTION:
+                                                                              ```
+
+                                                                              #### Constraints
+
+                                                                              - Do not rewrite the whole repository.
+                                                                              - - Do not duplicate old context.
+                                                                                - - Keep updates short and compressed.
+                                                                                  - - Do not move or edit Google Drive source-of-truth files unless explicitly instructed.
+                                                                                    - - GitHub is the context and memory layer, not the main storage layer.
+                                                                                      - - Stop and report if unsure whether something belongs in short-term, active tasks, asset index, or long-term memory.
+                                                                                       
+                                                                                        - #### Default Behaviour
+                                                                                       
+                                                                                        - At the end of any meaningful completed task, Claude must include this check in its report:
+                                                                                       
+                                                                                        - > **GitHub Context Update Needed: Yes/No**
+                                                                                          >
+                                                                                          > If Yes, Claude should either:
+                                                                                          > - Run the GitHub Context Update Loop immediately if already approved by standing instruction, or
+                                                                                          > - - State exactly which files should be updated if execution permission is unclear.
