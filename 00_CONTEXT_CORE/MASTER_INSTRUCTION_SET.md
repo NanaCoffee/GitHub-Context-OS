@@ -107,3 +107,140 @@
                                                                   - - Do not change Drive source-of-truth files unless explicitly instructed
                                                                     - - GitHub is the context layer, not the main file storage layer
                                                                       - - Stop and report if there is uncertainty about what should be updated
+
+
+---
+
+### LinkedIn Post Execution Loop
+
+#### Purpose
+
+Use this loop whenever Nas / Geoffrey approves a LinkedIn post for publishing, review, follow-up, or performance tracking.
+
+The goal is to avoid recreating the same instructions manually every time.
+
+#### Trigger
+
+Run this loop when the user asks for any of the following:
+- publish a LinkedIn post
+- - review a published LinkedIn post
+  - - post a self-comment
+    - - DM someone connected to a LinkedIn post
+      - - record LinkedIn post performance
+        - - continue a LinkedIn content workflow
+         
+          - #### 1. Draft / Approval Stage
+         
+          - - Only use post copy approved by Nas or ChatGPT.
+            - - Do not make creative changes after approval unless explicitly requested.
+              - - If a factual correction appears, update only the relevant wording and confirm before publishing.
+                - - Keep Nas's LinkedIn content practical, observational, calm, and credible.
+                  - - Do not make it salesy.
+                    - - Do not create public Coffee Performance sales content.
+                     
+                      - #### 2. Publishing Stage
+                     
+                      - When publishing:
+                      - - Open LinkedIn.
+                        - - Publish the approved post exactly as provided.
+                          - - Attach an image only if explicitly approved.
+                            - - Tag a company or person only if explicitly approved and LinkedIn clearly identifies the correct account.
+                              - - Do not add extra hashtags.
+                                - - Do not add unapproved links.
+                                  - - Do not send DMs during publishing unless instructed.
+                                    - - Do not reply to comments.
+                                      - - Do not accept or reject connection requests.
+                                        - - Do not take unrelated LinkedIn actions.
+                                         
+                                          - #### 3. Post-Publish Report
+                                         
+                                          - After publishing, report:
+                                         
+                                          - ```
+                                            Task:
+                                            Status:
+                                            Post published: Yes/No
+                                            Post URL, if available:
+                                            Exact posting time shown, or relative time if LinkedIn does not show exact time:
+                                            Image attached: Yes/No
+                                            Tags used:
+                                            Copy changes made:
+                                            Other actions taken:
+                                            Issues:
+                                            Stopped:
+                                            ```
+
+                                            #### 4. Relationship Follow-Up Stage
+
+                                            If the post is connected to a person, founder, company, sample, meeting, or collaboration:
+                                            - Send a DM only after Nas explicitly approves.
+                                            - - Message only the confirmed person.
+                                              - - Do not message multiple people unless approved.
+                                                - - Include the post link if relevant.
+                                                  - - Keep the message polite, specific, and non-salesy.
+                                                    - - Report: recipient, message sent status, post link included, other actions, issues, and stopped status.
+                                                     
+                                                      - #### 5. Waiting Period
+                                                     
+                                                      - After publishing and any approved DM:
+                                                      - - Do not self-comment immediately unless instructed.
+                                                        - - Wait 24 hours before performance review.
+                                                          - - Do not chase replies.
+                                                            - - Do not take extra LinkedIn actions.
+                                                             
+                                                              - #### 6. 24-Hour Review Stage
+                                                             
+                                                              - At the review checkpoint, collect:
+                                                              - - Impressions / views
+                                                                - - Members reached
+                                                                  - - Reactions
+                                                                    - - Comments
+                                                                      - - Reposts
+                                                                        - - Saves
+                                                                          - - Sends
+                                                                            - - Profile viewers from this post
+                                                                              - - Followers gained
+                                                                                - - Connection requests, if visible
+                                                                                  - - Notable comments
+                                                                                    - - Comments needing reply
+                                                                                      - - Audience demographics, if shown
+                                                                                        - - Any DM reply connected to the post
+                                                                                         
+                                                                                          - Do not engage with the post during review unless instructed.
+                                                                                         
+                                                                                          - #### 7. Decision Stage
+                                                                                         
+                                                                                          - After review:
+                                                                                          - - If reach is good but engagement is low, recommend a self-comment.
+                                                                                            - - If there are comments, recommend natural replies instead of using a planned self-comment.
+                                                                                              - - If the post performs poorly, record the lesson and adjust the next post.
+                                                                                                - - Do not self-comment or reply without approval.
+                                                                                                 
+                                                                                                  - #### 8. Record Stage
+                                                                                                 
+                                                                                                  - After each completed LinkedIn post loop, run the GitHub Context Update Loop if the workflow caused a meaningful state change.
+                                                                                                 
+                                                                                                  - Update:
+                                                                                                  - - `SHORT_TERM_CONTEXT.md` with post topic, date, post URL, status, key metrics, follow-up action, and next checkpoint.
+                                                                                                    - - `ACTIVE_TASKS.md` if there is a new active checkpoint.
+                                                                                                      - - `ASSET_INDEX.md` only if the post URL or related asset needs indexing.
+                                                                                                        - - `LONG_TERM_MEMORY.md` only if a stable rule or major decision was created.
+                                                                                                         
+                                                                                                          - #### 9. Token Efficiency Rule
+                                                                                                         
+                                                                                                          - - Do not ask for repeated instructions that are already covered by this loop.
+                                                                                                            - - Only ask for missing information required for the current stage.
+                                                                                                             
+                                                                                                              - #### 10. Boundary Rule
+                                                                                                             
+                                                                                                              - Do not publish Coffee Performance offers, booking links, payment links, launch announcements, or sales content.
+                                                                                                             
+                                                                                                              - Nas's LinkedIn content should remain focused on:
+                                                                                                              - - personal credibility
+                                                                                                                - - coffee
+                                                                                                                  - - hospitality
+                                                                                                                    - - service rhythm
+                                                                                                                      - - training
+                                                                                                                        - - product quality
+                                                                                                                          - - café operations
+                                                                                                                            - - real-world observations
