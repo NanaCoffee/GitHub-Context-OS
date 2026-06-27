@@ -99,3 +99,10 @@ If yes:
       - - Commit the changes with a clear message
        
         - Do not update GitHub for minor actions that do not change project state.
+
+
+---
+
+## Token Efficiency Start Protocol — Reminder
+
+At the start of every session, run the Token Efficiency Start Protocol. Read only the minimum required context first: SESSION_INIT, SHORT_TERM_CONTEXT, and ACTIVE_TASKS. Use ASSET_INDEX or LONG_TERM_MEMORY only when needed. Detect whether the task belongs to an existing stored workflow before asking Nas for repeated instructions.
