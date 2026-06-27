@@ -431,3 +431,81 @@ At the start of each session, Claude must:
                                           - - Do not ask Nas to repeat context already stored in GitHub.
                                             - - Do not expand the task unless instructed.
                                               - - Token efficiency is more important than exhaustive context loading.
+
+## Usage Limit / Session Close Protocol
+
+### Purpose
+
+Claude must protect project continuity when usage limits, context limits, or long-session fatigue appear.
+
+The goal is to avoid losing progress, decisions, task status, next actions, file changes, commits, or pending checkpoints.
+
+### Trigger
+
+Run this protocol when:
+
+- Nas mentions usage limit
+- - Claude detects the session is becoming long
+  - - Claude is close to context or usage limits
+    - - a major workflow has just completed
+      - - a task cannot safely continue without recording progress
+        - - Nas says /pause, /next, usage limit, approaching limit, close session, save context, or similar
+         
+          - ### Required Action
+         
+          - When triggered, Claude must stop new execution and create a compact session close update.
+         
+          - Claude should record:
+         
+          - - what was completed
+            - - what is currently active
+              - - what is blocked
+                - - next recommended action
+                  - - files changed
+                    - - commits made
+                      - - pending checkpoints
+                        - - anything Nas must not repeat next session
+                         
+                          - ### GitHub Update
+                         
+                          - If meaningful progress occurred, run the GitHub Context Update Rule.
+                         
+                          - Update only relevant files:
+                         
+                          - - 01_MEMORY_LAYERS/SHORT_TERM_CONTEXT.md for session progress and next checkpoint
+                            - - 02_OPERATIONAL_FILES/ACTIVE_TASKS.md for current task status
+                              - - 02_OPERATIONAL_FILES/ASSET_INDEX.md only if new URLs/assets/files matter
+                                - - 01_MEMORY_LAYERS/LONG_TERM_MEMORY.md only if a stable rule or major decision was created
+                                 
+                                  - Commit changes with one of these messages:
+                                 
+                                  - - Update context before session close
+                                    - - Update context before usage limit
+                                      - - Update context after completed workflow
+                                       
+                                        - ### Reporting Format
+                                       
+                                        - After saving context, report:
+                                       
+                                        - ```
+                                          TASK:
+                                          STATUS:
+                                          SESSION CLOSE SUMMARY:
+                                          FILES UPDATED:
+                                          COMMIT MADE:
+                                          COMMIT MESSAGE:
+                                          COMMIT HASH:
+                                          NEXT ACTION:
+                                          SAFE TO STOP: Yes/No
+                                          GITHUB CONTEXT UPDATE NEEDED: Yes/No
+                                          ```
+
+                                          ### Constraints
+
+                                          - Do not start new work after this protocol is triggered.
+                                          - - Do not inspect unrelated files.
+                                            - - Do not rewrite old context.
+                                              - - Keep the update compressed.
+                                                - - Prioritise continuity over completeness.
+                                                  - - If no meaningful progress occurred, say GitHub update is not needed and explain briefly.
+                                                    - - If uncertain what to save, save only the confirmed completed work, active task, and next action.
