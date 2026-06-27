@@ -82,3 +82,20 @@ Trigger it after:
       - Then commit with: `Update context after [task name]`
      
       - Do not run after minor actions. Keep updates short and compressed.
+
+
+---
+
+## End-of-Workflow Reminder — GitHub Context Update Loop
+
+At the end of any meaningful workflow, check whether the GitHub Context Update Loop should run.
+
+If yes:
+
+- Update `SHORT_TERM_CONTEXT.md`
+- - Update `ACTIVE_TASKS.md` if task status changed
+  - - Update `ASSET_INDEX.md` only if a new asset/link/location matters
+    - - Update `LONG_TERM_MEMORY.md` only for stable rules or major decisions
+      - - Commit the changes with a clear message
+       
+        - Do not update GitHub for minor actions that do not change project state.
