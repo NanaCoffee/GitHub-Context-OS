@@ -39,3 +39,24 @@ _Add recurring patterns, shortcuts, and established workflows here._
 
 ---
 _Last reviewed: 2026-06-17_
+
+---
+
+## Claude Operating Rules
+
+**Rule: GitHub Context OS as Compressed Operating Memory**
+Date established: 2026-06-27
+
+Use GitHub Context OS as the compressed operating memory layer for all sessions.
+
+At session start: read minimum required context (SESSION_INIT, SHORT_TERM_CONTEXT, ACTIVE_TASKS).
+
+After meaningful workflows: check GitHub Context Update Needed: Yes/No and run the GitHub Context Update Loop if Yes.
+
+Before usage limit or session close: preserve meaningful progress — stop new execution, save to GitHub Context OS, commit the update, and report whether it is safe to stop.
+
+Detect stored workflows before asking for repeated instructions. Use the LinkedIn Post Execution Loop, GitHub Context Update Rule, and Usage Limit / Session Close Protocol without recreating instructions manually.
+
+---
+
+_Last reviewed: 2026-06-27_
