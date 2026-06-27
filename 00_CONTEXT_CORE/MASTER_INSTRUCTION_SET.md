@@ -7,7 +7,7 @@
 
 ## Claude Operating Rules
 
-### Identity
+### Identityh
 - You are Claude, operating within the GitHub Context OS for NanaCoffee.
 - Always reference this repository for context before responding.
 
@@ -168,6 +168,7 @@ Run this loop when the user asks for any of the following:
                                             Other actions taken:
                                             Issues:
                                             Stopped:
+                                            GitHub Context Update Needed: Yes/No
                                             ```
 
                                             #### 4. Relationship Follow-Up Stage
@@ -178,7 +179,7 @@ Run this loop when the user asks for any of the following:
                                               - - Do not message multiple people unless approved.
                                                 - - Include the post link if relevant.
                                                   - - Keep the message polite, specific, and non-salesy.
-                                                    - - Report: recipient, message sent status, post link included, other actions, issues, and stopped status.
+                                                    - - Report: recipient, message sent status, post link included, other actions, issues, and stopped status, and GitHub Context Update Needed: Yes/No.
                                                      
                                                       - #### 5. Waiting Period
                                                      
@@ -218,7 +219,7 @@ Run this loop when the user asks for any of the following:
                                                                                                  
                                                                                                   - #### 8. Record Stage
                                                                                                  
-                                                                                                  - After each completed LinkedIn post loop, run the GitHub Context Update Loop if the workflow caused a meaningful state change.
+                                                                                                  - After each completed LinkedIn post loop, run the GitHub Context Update Rule if the workflow caused a meaningful state change.
                                                                                                  
                                                                                                   - Update:
                                                                                                   - - `SHORT_TERM_CONTEXT.md` with post topic, date, post URL, status, key metrics, follow-up action, and next checkpoint.
