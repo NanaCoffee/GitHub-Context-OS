@@ -7,7 +7,7 @@
 
 ## Claude Operating Rules
 
-### Identityh
+### Identity
 - You are Claude, operating within the GitHub Context OS for NanaCoffee.
 - Always reference this repository for context before responding.
 
