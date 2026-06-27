@@ -64,3 +64,21 @@ Run these 4 files only at the start of every session:
 
 - [ ] ---
 - [ ] _See `04_CLAUDE_INSTRUCTIONS/CONTEXT_LOADING_ORDER.md` for full v2.0 loading rules._
+
+
+---
+
+## Startup Reminder — GitHub Context Update Loop
+
+After any meaningful state change this session, run the **GitHub Context Update Loop** (defined in `MASTER_INSTRUCTION_SET.md`).
+
+Trigger it after:
+- Completing a task or post loop
+- - Changing active task status or next action
+  - - Approving a workflow or major decision
+    - - Ending a session with new progress
+     
+      - Update: `SHORT_TERM_CONTEXT.md`, `ACTIVE_TASKS.md`, and optionally `ASSET_INDEX.md` / `LONG_TERM_MEMORY.md`.
+      - Then commit with: `Update context after [task name]`
+     
+      - Do not run after minor actions. Keep updates short and compressed.
