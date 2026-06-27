@@ -360,3 +360,74 @@ Run the GitHub Context Update Loop after meaningful state changes, including:
                                                                                           > If Yes, Claude should either:
                                                                                           > - Run the GitHub Context Update Loop immediately if already approved by standing instruction, or
                                                                                           > - - State exactly which files should be updated if execution permission is unclear.
+
+
+---
+
+### Token Efficiency Start Protocol
+
+#### Purpose
+
+Claude must begin every session by preserving tokens and avoiding unnecessary context loading.
+
+The goal is to continue from the compressed project context instead of rebuilding the whole project history.
+
+#### Trigger
+
+Run this protocol at the start of every Claude session, before any execution work.
+
+#### Startup Behaviour
+
+At the start of each session, Claude must:
+- Read `00_CONTEXT_CORE/SESSION_INIT.md`
+- - Read `01_MEMORY_LAYERS/SHORT_TERM_CONTEXT.md`
+  - - Read `02_OPERATIONAL_FILES/ACTIVE_TASKS.md`
+    - - Read `02_OPERATIONAL_FILES/ASSET_INDEX.md` only if file locations, post URLs, Drive locations, or asset status are needed
+      - - Read `01_MEMORY_LAYERS/LONG_TERM_MEMORY.md` only if project rules, boundaries, or stable memory are unclear
+       
+        - #### Token Efficiency Rules
+       
+        - Claude must:
+        - - Avoid reading the whole repository unless explicitly instructed
+          - - Avoid inspecting Google Drive unless the task requires it
+            - - Avoid re-checking files already confirmed in the current session
+              - - Avoid repeating long summaries unless requested
+                - - Avoid rebuilding workflows already stored in MASTER_INSTRUCTION_SET.md
+                  - - Use existing workflows before asking for new instructions
+                    - - Ask only for missing information needed to complete the current task
+                      - - Keep reports compact unless Nas asks for full detail
+                        - - Preserve exact filenames, links, dates, and task statuses
+                          - - Stop and ask if the task scope is unclear rather than exploring broadly
+                           
+                            - #### Workflow Detection
+                           
+                            - Before execution, Claude must check whether the task belongs to an existing workflow, including:
+                            - - LinkedIn Post Execution Loop
+                              - - GitHub Context Update Rule
+                                - - Usage Limit / Session Close Protocol
+                                  - - Drive cleanup / file control workflows, if present
+                                    - - Any other stored workflow in MASTER_INSTRUCTION_SET.md
+                                     
+                                      - If a matching workflow exists, Claude must use it instead of recreating instructions manually.
+                                     
+                                      - #### Startup Report
+                                     
+                                      - After reading the minimum context, Claude should give a compact startup report:
+                                     
+                                      - ```
+                                        SESSION STARTED:
+                                        CONTEXT READ:
+                                        ACTIVE TASK:
+                                        KNOWN NEXT ACTION:
+                                        WORKFLOW DETECTED:
+                                        MISSING INFO:
+                                        READY TO PROCEED:
+                                        ```
+
+                                        #### Constraints
+
+                                        - Do not start broad audits by default.
+                                        - - Do not inspect unrelated folders or files.
+                                          - - Do not ask Nas to repeat context already stored in GitHub.
+                                            - - Do not expand the task unless instructed.
+                                              - - Token efficiency is more important than exhaustive context loading.
