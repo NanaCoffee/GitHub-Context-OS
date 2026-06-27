@@ -106,3 +106,9 @@ If yes:
 ## Token Efficiency Start Protocol — Reminder
 
 At the start of every session, run the Token Efficiency Start Protocol. Read only the minimum required context first: SESSION_INIT, SHORT_TERM_CONTEXT, and ACTIVE_TASKS. Use ASSET_INDEX or LONG_TERM_MEMORY only when needed. Detect whether the task belongs to an existing stored workflow before asking Nas for repeated instructions.
+
+---
+
+## Usage Limit / Session Close Protocol — Reminder
+
+Before ending a session, or when usage/context limits are approaching, run the Usage Limit / Session Close Protocol. Stop new execution, save meaningful progress to GitHub Context OS, commit the update, and report whether it is safe to stop.
