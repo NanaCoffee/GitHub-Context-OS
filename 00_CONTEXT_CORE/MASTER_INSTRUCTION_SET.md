@@ -509,3 +509,82 @@ Run this protocol when:
                                                 - - Prioritise continuity over completeness.
                                                   - - If no meaningful progress occurred, say GitHub update is not needed and explain briefly.
                                                     - - If uncertain what to save, save only the confirmed completed work, active task, and next action.
+
+
+---
+
+## Product Value Lens — Revenue Idea Filter
+
+Every new revenue idea, offer, product concept, service concept, or workflow expansion must be checked against the Product Value Lens before it is developed.
+
+A strong idea should clearly answer at least two of the three lenses. A priority idea should answer all three.
+
+### 1. Solution
+
+Does the idea make a painful problem go away?
+
+Examples:
+
+- removes confusion
+- - reduces waste
+  - - fixes repeated manual work
+    - - clarifies a broken workflow
+      - - helps the buyer make a decision
+        - - removes a recurring operational headache
+         
+          - ### 2. Convenience
+         
+          - Does the idea make the buyer's life faster, simpler, easier, or less stressful?
+         
+          - Examples:
+         
+          - - one focused session instead of a long programme
+            - - clear written output
+              - - simple next actions
+                - - less admin
+                  - - fewer tools
+                    - - reduced decision fatigue
+                      - - no unnecessary setup
+                       
+                        - ### 3. Experience
+                       
+                        - Does the buyer pay for a valuable feeling?
+                       
+                        - Examples:
+                       
+                        - - clarity
+                          - - control
+                            - - relief
+                              - - confidence
+                                - - professionalism
+                                  - - calm
+                                    - - status
+                                      - - feeling less behind
+                                        - - feeling their business is easier to run
+                                         
+                                          - ### Commercial Priority Filter
+                                         
+                                          - After the three lenses, check whether the idea is:
+                                         
+                                          - - private-testable
+                                            - - fast to prove
+                                              - - connected to revenue
+                                                - - low manual workload
+                                                  - - deliverable with current tools
+                                                    - - useful for proof capture
+                                                      - - not dependent on public launch
+                                                        - - not dependent on a website, payment link, automation, or large infrastructure build
+                                                         
+                                                          - ### Operating Rule
+                                                         
+                                                          - Do not build from excitement alone.
+                                                          - Do not create products from brainstorming.
+                                                          - Do not expand an idea unless it has passed the Product Value Lens and Commercial Priority Filter.
+                                                         
+                                                          - Coffee is now treated as a parked specialist vertical, not the default commercial route.
+                                                         
+                                                          - The current broader direction is:
+                                                          - AI-assisted operations clarity for small service businesses.
+                                                         
+                                                          - The first non-coffee private revenue experiment is:
+                                                          - One-session AI tool clarity review / AI Tool Role Audit at £350.
