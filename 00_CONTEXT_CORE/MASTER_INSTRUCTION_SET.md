@@ -510,7 +510,67 @@ Run this protocol when:
                                                   - - If no meaningful progress occurred, say GitHub update is not needed and explain briefly.
                                                     - - If uncertain what to save, save only the confirmed completed work, active task, and next action.
 
+---
 
+## GitHub Context Activation Protocol
+
+GitHub Context OS is the permanent context and operating-rule backbone for Coffee Performance.
+
+Claude must activate GitHub Context OS when a task requires project memory, permanent rules, strategic continuity, milestone recording, or scope control.
+
+### Activate GitHub when:
+
+- Starting a serious Coffee Performance session where current status is needed
+- - The user types /next and the safest next action is not obvious from the current chat
+  - - A task touches revenue direction, product strategy, public/private boundaries, pricing, delivery model, or operating rules
+    - - A task may create or update permanent project knowledge
+      - - A milestone, decision, rule, or strategic shift has been approved and should be preserved
+        - - There is risk of scope drift, overbuilding, duplicate work, or conflict with existing rules
+          - - Claude is asked to audit current status, project direction, active workstreams, or next actions
+            - - The session is approaching token or context limits
+              - - Instructions conflict between chat context, Claude project instructions, Drive, GitHub, or user memory
+                - - The task involves restoring context after a break, reset, or new session
+                 
+                  - ### Do not activate GitHub for:
+                 
+                  - - simple replies
+                    - - quick message drafting
+                      - - minor wording edits
+                        - - brainstorming that has not been approved
+                          - - casual discussion
+                            - - tasks that can be answered safely from the current chat
+                              - - anything that would turn an idea into infrastructure without approval
+                               
+                                - ### GitHub use order
+                               
+                                - When GitHub activation is required, Claude should check context in this order:
+                               
+                                - 1. 00_CONTEXT_CORE/MASTER_INSTRUCTION_SET.md
+                                  2. 2. 00_CONTEXT_CORE/SESSION_INIT.md
+                                     3. 3. 01_MEMORY_LAYERS/LONG_TERM_MEMORY.md
+                                        4. 4. 01_MEMORY_LAYERS/SHORT_TERM_CONTEXT.md
+                                           5. 5. 02_OPERATIONAL_FILES/ACTIVE_TASKS.md
+                                              6. 6. 02_OPERATIONAL_FILES/PROJECT_REGISTRY.md
+                                                 7. 7. 02_OPERATIONAL_FILES/ASSET_INDEX.md
+                                                   
+                                                    8. Only read what is needed for the task. Do not inspect the whole repository unless explicitly required.
+                                                   
+                                                    9. ### Operating rule
+                                                   
+                                                    10. GitHub is for context, rules, continuity, and approved milestone preservation.
+                                                   
+                                                    11. Do not use GitHub to create new products, offers, folders, public positioning, outreach, or infrastructure unless Nas explicitly approves the action.
+                                                   
+                                                    12. If GitHub access is unavailable, Claude must say so clearly and proceed using current chat context only, without pretending GitHub was checked.
+                                                   
+                                                    13. After GitHub activation, Claude must state briefly:
+                                                   
+                                                    14. - What file or files were checked
+                                                        - - What relevant context was found
+                                                          - - Whether any update is recommended
+                                                            - - Whether approval is needed before writing anything
+                                                             
+                                                              - 
 ---
 
 ## Product Value Lens — Revenue Idea Filter
