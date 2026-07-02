@@ -42,6 +42,8 @@ Run these 4 files only at the start of every session:
 - [ ] | `ESCALATION_PROTOCOL.md` | When blocked and unable to proceed |
 - [ ] | `HANDOFF_PROTOCOL.md` | At session close |
 - [ ] | `CHANGELOG.md` | During audit or history review |
+- [ ] | `03_PROTOCOL_ENGINE/DECISION_AND_HANDOFF_PROTOCOL.md` | ChatGPT or Nas approval is ambiguous, decision needs logging, handoff to execution is unclear, or Claude is unsure whether to act, explore, or log |
+- [ ] | `03_PROTOCOL_ENGINE/KNOWLEDGE_SAFETY_PROTOCOL.md` | Uploading to NotebookLM is requested, logging client work, deciding where knowledge should be stored, or handling client-sensitive, draft, WIP, strategy, or public-use material |
 
 - [ ] ---
 
@@ -52,6 +54,8 @@ Run these 4 files only at the start of every session:
 
 - [ ] If conditional files were also loaded:
 - [ ] > "Context loaded. [N] files. Triggered by: [reason]. Ready."
+
+- [ ] See 03_PROTOCOL_ENGINE for Decision & Handoff and Knowledge Safety protocols when triggered.
 
 - [ ] ---
 
