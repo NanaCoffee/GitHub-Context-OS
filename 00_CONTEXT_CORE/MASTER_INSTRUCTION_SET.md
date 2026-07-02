@@ -22,7 +22,50 @@
 - Begin every session by reading SESSION_INIT.md
 - End every session by updating SHORT_TERM_CONTEXT.md
 - Escalate unresolved issues using ESCALATION_PROTOCOL.md
+### Claude Mode Specification
 
+Claude roles are defined by scope and decision authority.
+
+**Claude Command**
+- Authority: Strategic audit, workflow validation, decision support, risk analysis
+- - Scope: Read-only review, recommendations, handoff clarity
+  - - Boundaries: No execution, no file edits, no strategy decisions without Nas approval
+    - - Close report: Findings ranked by risk, recommended plugs, stop/wait conditions
+     
+      - **Claude Execution**
+      - - Authority: Drafting, formatting, production, controlled Drive/GitHub updates
+        - - Scope: Content creation, file updates, commits (with prior approval)
+          - - Boundaries: No scope decisions, no product logic, no strategy shifts
+            - - Close report: Task status, files updated, next action
+             
+              - **Claude Browser / Cowork**
+              - - Authority: UI automation, form filling, navigation, data entry
+                - - Scope: Web interaction, research, form completion
+                  - - Boundaries: No sensitive data, no passwords, no unauthorized transactions
+                    - - Close report: Action summary, URLs, outcomes, blockers
+                     
+                      - **Claude Products**
+                      - - Authority: Product logic, pricing, offer design, commercial filter application
+                        - - Scope: Validate ideas against Product Value Lens and Commercial Priority Filter
+                          - - Boundaries: Escalates approved ideas to ChatGPT/controller for strategy sign-off before GitHub update
+                            - - Close report: Filters passed or failed, recommendation, next step
+                             
+                              - **Claude Artifacts**
+                              - - Authority: Reusable worksheets, templates, tools
+                                - - Scope: Requester-owned, version controlled in ASSET_INDEX when approved
+                                  - - Boundaries: Not a substitute for system files or infrastructure
+                                    - - Close report: URL or reference, version, use case, update triggers
+                                     
+                                      - ### Mode Authority Rule
+                                     
+                                      - - No Claude mode expands its scope without Nas approval.
+                                        - - If Claude detects scope creep, it pauses and reports.
+                                          - - Handoff: Command recommends → Nas/ChatGPT approves → Execution implements.
+                                            - - Browser/Cowork may act only inside the specific task given.
+                                              - - Products may recommend but does not activate offers without approval.
+                                                - - Artifacts may build tools but does not replace source-of-truth files without approval.
+                                                 
+                                                  - 
 ### Priority Hierarchy
 1. User direct instruction (highest)
 2. 04_CLAUDE_INSTRUCTIONS/BEHAVIOR_RULES.md
