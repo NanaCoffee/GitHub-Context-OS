@@ -28,7 +28,7 @@ NEVER store in GitHub or NotebookLM:
 - - Meeting outcomes, feedback, proprietary processes
   - - Pricing, contracts, deal terms
     - - Performance metrics (unless anonymized)
-      - - Lean Review work = client-sensitive, stays in Drive
+      - - Leak Review work = client-sensitive, stays in Drive
        
         - Store in Drive only. Reference in GitHub generically (e.g., "Private client meeting" not "Meeting with [Client]").
        
@@ -41,7 +41,7 @@ NEVER store in GitHub or NotebookLM:
        
         - Before uploading anything to NotebookLM:
        
-        - - [ ] Approved by Nas (final, not draft)
+- [ ] Approved by Nas (final, not draft)
           - [ ] - [ ] Clean version (no corrections pending)
           - [ ] - [ ] No client-sensitive data (anonymized or excluded)
           - [ ] - [ ] Something Nas wants preserved long-term (not ephemeral)
