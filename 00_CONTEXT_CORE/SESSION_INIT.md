@@ -116,3 +116,56 @@ At the start of every session, run the Token Efficiency Start Protocol. Read onl
 ## Usage Limit / Session Close Protocol — Reminder
 
 Before ending a session, or when usage/context limits are approaching, run the Usage Limit / Session Close Protocol. Stop new execution, save meaningful progress to GitHub Context OS, commit the update, and report whether it is safe to stop.
+
+
+---
+
+## Claude GitHub Session Start Rule
+
+At the start of every Claude GitHub-linked session:
+
+1. Sync or pull the latest repository version if available.
+
+2. 2. Confirm repository name.
+  
+   3. 3. Confirm current branch.
+     
+      4. 4. Confirm latest commit hash.
+        
+         5. 5. Check git status.
+           
+            6. 6. Locate and follow the existing CONTEXT LOADING ORDER, Version 2.0, dated 2026-06-17.
+              
+               7. 7. Load only the files required by that context loading order.
+                 
+                  8. 8. Do not load unrelated repo files unless the loading order requires them.
+                    
+                     9. 9. Do not edit files until a specific task is approved.
+                       
+                        10. 10. Do not create files, commit, or push unless explicitly approved.
+                           
+                            11. 11. Do not access Nas's local computer drive unless specifically approved.
+                               
+                                12. 12. Google Drive remains the Coffee Performance source of truth.
+                                   
+                                    13. 13. GitHub is context, backup, and version control.
+                                       
+                                        14. 14. If the context loading order conflicts with Nas/ChatGPT instructions, stop and report the conflict.
+                                           
+                                            15. ### Required Session-Start Report Format:
+                                           
+                                            16. ```
+                                                SESSION START:
+                                                STATUS:
+                                                REPOSITORY:
+                                                BRANCH:
+                                                LATEST COMMIT:
+                                                GIT STATUS:
+                                                CONTEXT LOADING ORDER FOUND:
+                                                CONTEXT VERSION:
+                                                FILES LOADED:
+                                                CURRENT ACTIVE TASKS:
+                                                RISKS OR CONFLICTS:
+                                                READY FOR TASK:
+                                                STOPPED:
+                                                ```
