@@ -1,6 +1,6 @@
 ---
 Title: "SHORT TERM CONTEXT"
-Version: 1.4
+Version: 1.5
 Last Updated: 2026-07-04
 ---
 
@@ -13,17 +13,13 @@ This file is updated at the END of every Claude session to preserve continuity.
 ## Last Session Summary
 
 - **Date:** 2026-07-04
-- **Project:** GitHub-Context-OS / Context Load Verification
+- **Project:** Coffee Performance Pilot — Fields Acton
 - **What was accomplished:**
-  - Default Minimal Load completed successfully (4 files)
-  - SESSION_INIT.md verified — Context Loading Order V2.0 confirmed
-  - SYSTEM_PROMPT.md read — operating rules confirmed
-  - SHORT_TERM_CONTEXT.md read — was last updated 2026-06-27
-  - ACTIVE_TASKS.md read — found stale (last updated 2026-06-27)
-  - Oliiv LinkedIn post 24-hour review task marked [!] STALE — overdue, no controller confirmation
-  - Holding note added to ACTIVE_TASKS.md: no execution until Nas or ChatGPT declares next task
-  - ACTIVE_TASKS.md and SHORT_TERM_CONTEXT.md updated to reflect session state
-  - No execution tasks performed this session
+  - Fields Acton declared as first Coffee Performance pilot candidate by Nas
+  - ACTIVE_TASKS.md updated: Fields Acton — Leak Review delivery loop set as Priority 1 active task
+  - Oliiv LinkedIn review task remains [!] STALE at Priority 2
+  - SHORT_TERM_CONTEXT.md rewritten to reflect current state
+  - No outreach started, no execution started, no client-facing messages created
 
 ## Claude Operating Behaviour (Current)
 
@@ -36,16 +32,18 @@ Claude should now:
 
 ## Live Operational Checkpoint
 
-- **Oliiv LinkedIn post:** Live (published 2026-06-27)
+- **Active task:** Fields Acton — Leak Review delivery loop [~]
+- **Next step:** Internal review and delivery planning only
+- **Boundary:** No outreach, no client-facing messages, no new product lane, no execution until controller instructs
+- **Oliiv LinkedIn review:** STALE [!] — awaiting controller confirmation
+- **Oliiv post:** Live (published 2026-06-27)
 - **Founder follow-up DM:** Sent to Chris Averill (2026-06-27)
-- **Oliiv review task:** STALE — due 2026-06-28, not confirmed by controller as of 2026-07-04
-- **Boundary:** Do not execute any task until Nas or ChatGPT declares the next active task
 
 ## Open Threads
 
-- Oliiv LinkedIn post 24-hour review — STALE, requires controller confirmation before execution
-- Status of Chris Averill reply — unknown, not checked in this session
-- Next active task — not yet declared by Nas or ChatGPT
+- Fields Acton pilot — internal planning phase, no execution started
+- Oliiv LinkedIn post 24-hour review — STALE, awaiting controller confirmation
+- Status of Chris Averill reply — not checked
 
 ## Recent Decisions
 
@@ -60,6 +58,7 @@ Claude should now:
 | 2026-06-27 | Added Token Efficiency Start Protocol | Load minimum context at session start |
 | 2026-06-27 | Added Usage Limit / Session Close Protocol | Protect progress before context/usage limits |
 | 2026-07-04 | Marked Oliiv review task [!] STALE | Task overdue, no controller confirmation, not executed |
+| 2026-07-04 | Declared Fields Acton as Priority 1 active task | First CP pilot candidate confirmed by Nas |
 
 ---
 
