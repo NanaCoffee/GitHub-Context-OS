@@ -1,6 +1,6 @@
 ---
 Title: "ACTIVE TASKS"
-Version: 1.5
+Version: 1.6
 Last Updated: 2026-07-04
 ---
 
@@ -23,40 +23,34 @@ This file tracks all active tasks across projects.
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | Oliiv LinkedIn post 24-hour review | Nas LinkedIn Optimisation | NanaCoffee | 2026-06-28 | [!] |
+| 1 | Fields Acton — Leak Review delivery loop | Coffee Performance Pilot | NanaCoffee | TBC | [~] |
 
-### Task 1 — Oliiv LinkedIn Post 24-Hour Review
+### Task 1 — Fields Acton — Leak Review Delivery Loop
 
-**Status: STALE — Requires controller confirmation before execution.**
+Fields Acton is the first Coffee Performance pilot candidate. Declared active by Nas 2026-07-04.
 
-Due date was 2026-06-28. As of 2026-07-04 this task has not been confirmed complete or cancelled by Nas or ChatGPT. Do not execute.
+Next step: internal review and delivery planning only.
 
-Checklist:
-- [ ] Check impressions / views
-- [ ] Check members reached
-- [ ] Check reactions
-- [ ] Check comments
-- [ ] Check reposts
-- [ ] Check profile viewers from this post
-- [ ] Check followers gained
-- [ ] Check for reply from Chris Averill
-- [ ] Decide whether self-comment or reply is needed
-
-Boundary: Do not self-comment, reply, or send DM before completing review and receiving instruction.
+Boundary:
+- Do not start outreach
+- Do not send client-facing messages
+- Do not create public offers, folders, automations, website edits, or payment links
+- No new product lane until one pilot is complete
+- No execution has started yet
 
 ---
 
-## HOLDING NOTE
-
-No execution task should proceed until Nas or ChatGPT declares the next active task.
-
----
-
-## PRIORITY 2 — High
+## PRIORITY 2 — Stale / Blocked
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | — | — | — | — | [ ] |
+| 1 | Oliiv LinkedIn post 24-hour review | Nas LinkedIn Optimisation | NanaCoffee | 2026-06-28 | [!] |
+
+### Task 2 — Oliiv LinkedIn Post 24-Hour Review
+
+**Status: STALE — Requires controller confirmation before execution.**
+
+Due date was 2026-06-28. Not confirmed complete or cancelled. Do not execute until controller instructs.
 
 ---
 
@@ -94,4 +88,4 @@ No execution task should proceed until Nas or ChatGPT declares the next active t
 
 - Use 02_OPERATIONAL_FILES/COMMANDS.md as the command reference for all sessions.
 - Context OS automation foundation build complete as of 2026-06-27.
-- ACTIVE_TASKS.md was found stale on 2026-07-04. Awaiting controller declaration of next active task.
+- Fields Acton pilot declared active 2026-07-04. Internal planning only — no outreach or execution started.
