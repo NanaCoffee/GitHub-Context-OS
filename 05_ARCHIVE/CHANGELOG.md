@@ -14,6 +14,7 @@ Types: `INIT` `ADD` `UPDATE` `FIX` `RESET` `ESCALATION` `ARCHIVE`
 ### 2026-07-04
 | Type | Description | Files Affected |
 |------|-------------|----------------|
+| UPDATE | Fields Acton declared as Priority 1 active task (first CP pilot candidate, confirmed by Nas). Next step: internal review and delivery planning only. No outreach, no execution started. | ACTIVE_TASKS.md, SHORT_TERM_CONTEXT.md |
 | UPDATE | Default Minimal Load completed. ACTIVE_TASKS.md updated: Oliiv LinkedIn review task marked [!] STALE, holding note added pending controller confirmation. SHORT_TERM_CONTEXT.md rewritten for 2026-07-04 session. No execution task started. No LinkedIn action taken. System awaiting Nas or ChatGPT declaration of next active task. | ACTIVE_TASKS.md, SHORT_TERM_CONTEXT.md |
 
 ---
