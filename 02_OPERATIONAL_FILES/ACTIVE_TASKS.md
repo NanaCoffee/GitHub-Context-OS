@@ -1,6 +1,6 @@
 ---
 Title: "ACTIVE TASKS"
-Version: 1.6
+Version: 1.7
 Last Updated: 2026-07-04
 ---
 
@@ -23,20 +23,24 @@ This file tracks all active tasks across projects.
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | Fields Acton — Leak Review delivery loop | Coffee Performance Pilot | NanaCoffee | TBC | [~] |
+| 1 | Fields Acton — post-report follow-up / pilot conversion decision | Coffee Performance Pilot | NanaCoffee | TBC | [~] |
 
-### Task 1 — Fields Acton — Leak Review Delivery Loop
+### Task 1 — Fields Acton — Post-Report Follow-Up / Pilot Conversion Decision
 
-Fields Acton is the first Coffee Performance pilot candidate. Declared active by Nas 2026-07-04.
+Fields Acton is the first Coffee Performance pilot candidate.
 
-Next step: internal review and delivery planning only.
+Current stage:
+- Face-to-face discussion: done
+- Report sent to Sam: 2026-07-01
+- Stage: awaiting response / conversion decision
+- No implementation started
+- No assumption that Fields Acton has agreed to proceed
 
 Boundary:
-- Do not start outreach
-- Do not send client-facing messages
+- Do not start outreach unless Nas approves
+- Do not send client-facing messages or pricing
 - Do not create public offers, folders, automations, website edits, or payment links
 - No new product lane until one pilot is complete
-- No execution has started yet
 
 ---
 
@@ -81,6 +85,8 @@ Due date was 2026-06-28. Not confirmed complete or cancelled. Do not execute unt
 | Oliiv LinkedIn post published | 2026-06-27 |
 | Founder follow-up DM sent to Chris Averill | 2026-06-27 |
 | Default Minimal Load completed (4 files) | 2026-07-04 |
+| Fields Acton face-to-face discussion completed | 2026-07-01 |
+| Report sent to Sam (Fields Acton) | 2026-07-01 |
 
 ---
 
@@ -88,4 +94,4 @@ Due date was 2026-06-28. Not confirmed complete or cancelled. Do not execute unt
 
 - Use 02_OPERATIONAL_FILES/COMMANDS.md as the command reference for all sessions.
 - Context OS automation foundation build complete as of 2026-06-27.
-- Fields Acton pilot declared active 2026-07-04. Internal planning only — no outreach or execution started.
+- Fields Acton pilot: report sent 2026-07-01. Awaiting conversion decision.
