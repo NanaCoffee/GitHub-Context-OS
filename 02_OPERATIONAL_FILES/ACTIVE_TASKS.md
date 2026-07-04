@@ -1,7 +1,7 @@
 ---
 Title: "ACTIVE TASKS"
-Version: 1.4
-Last Updated: 2026-06-27
+Version: 1.5
+Last Updated: 2026-07-04
 ---
 
 ## Task Board
@@ -23,9 +23,13 @@ This file tracks all active tasks across projects.
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | Oliiv LinkedIn post 24-hour review | Nas LinkedIn Optimisation | NanaCoffee | 2026-06-28 | [~] |
+| 1 | Oliiv LinkedIn post 24-hour review | Nas LinkedIn Optimisation | NanaCoffee | 2026-06-28 | [!] |
 
 ### Task 1 — Oliiv LinkedIn Post 24-Hour Review
+
+**Status: STALE — Requires controller confirmation before execution.**
+
+Due date was 2026-06-28. As of 2026-07-04 this task has not been confirmed complete or cancelled by Nas or ChatGPT. Do not execute.
 
 Checklist:
 - [ ] Check impressions / views
@@ -39,6 +43,12 @@ Checklist:
 - [ ] Decide whether self-comment or reply is needed
 
 Boundary: Do not self-comment, reply, or send DM before completing review and receiving instruction.
+
+---
+
+## HOLDING NOTE
+
+No execution task should proceed until Nas or ChatGPT declares the next active task.
 
 ---
 
@@ -76,6 +86,7 @@ Boundary: Do not self-comment, reply, or send DM before completing review and re
 | Added Usage Limit / Session Close Protocol to MASTER_INSTRUCTION_SET.md and SESSION_INIT.md | 2026-06-27 |
 | Oliiv LinkedIn post published | 2026-06-27 |
 | Founder follow-up DM sent to Chris Averill | 2026-06-27 |
+| Default Minimal Load completed (4 files) | 2026-07-04 |
 
 ---
 
@@ -83,6 +94,4 @@ Boundary: Do not self-comment, reply, or send DM before completing review and re
 
 - Use 02_OPERATIONAL_FILES/COMMANDS.md as the command reference for all sessions.
 - Context OS automation foundation build complete as of 2026-06-27.
-- Next action: Run Oliiv LinkedIn post 24-hour review when window opens.
-
-Update this file at start and end of every session.
+- ACTIVE_TASKS.md was found stale on 2026-07-04. Awaiting controller declaration of next active task.
