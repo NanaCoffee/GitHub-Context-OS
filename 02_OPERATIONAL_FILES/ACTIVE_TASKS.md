@@ -1,6 +1,6 @@
 ---
 Title: "ACTIVE TASKS"
-Version: 1.7
+Version: 1.8
 Last Updated: 2026-07-04
 ---
 
@@ -44,17 +44,31 @@ Boundary:
 
 ---
 
-## PRIORITY 2 — Stale / Blocked
+## PRIORITY 2 — Active
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | Oliiv LinkedIn post 24-hour review | Nas LinkedIn Optimisation | NanaCoffee | 2026-06-28 | [!] |
+| 1 | LinkedIn Phase 2 — Café Operations + AI Visibility / Post 05 publication and tracking | Nas LinkedIn Optimisation | NanaCoffee | TBC | [~] |
 
-### Task 2 — Oliiv LinkedIn Post 24-Hour Review
+### Task 2 — LinkedIn Phase 2 — Café Operations + AI Visibility
 
-**Status: STALE — Requires controller confirmation before execution.**
+**Status: ACTIVE**
 
-Due date was 2026-06-28. Not confirmed complete or cancelled. Do not execute until controller instructs.
+Phase declared 2026-07-04. Post 05 approved by Nas as first strong AI/café operations post.
+
+Current stage:
+- Post 03 "Experience is not the same as training" — closed
+- Post 04 "A café team is not trained until standards hold during pressure" — live and reviewed
+- Post 05 — approved, pending publication and tracking
+- Direction: connect real café problems to practical AI visibility solutions
+- Chris Averill / Oliiv connection: accepted (confirmed Founder at Oliiv)
+- Oliiv thread: warm and active
+
+Boundary:
+- No Coffee Performance public mention
+- No sales language
+- No offers, booking links, or consulting language
+- LinkedIn chat reserved for LinkedIn production only
 
 ---
 
@@ -87,6 +101,8 @@ Due date was 2026-06-28. Not confirmed complete or cancelled. Do not execute unt
 | Default Minimal Load completed (4 files) | 2026-07-04 |
 | Fields Acton face-to-face discussion completed | 2026-07-01 |
 | Report sent to Sam (Fields Acton) | 2026-07-01 |
+| Oliiv LinkedIn post 24-hour review — cleared from STALE | 2026-07-04 |
+| Chris Averill connection invite accepted (confirmed Founder at Oliiv) | 2026-07-04 |
 
 ---
 
@@ -95,3 +111,4 @@ Due date was 2026-06-28. Not confirmed complete or cancelled. Do not execute unt
 - Use 02_OPERATIONAL_FILES/COMMANDS.md as the command reference for all sessions.
 - Context OS automation foundation build complete as of 2026-06-27.
 - Fields Acton pilot: report sent 2026-07-01. Awaiting conversion decision.
+- LinkedIn Phase 2 declared 2026-07-04. Direction: Café Operations + AI Visibility.
