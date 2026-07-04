@@ -1,6 +1,6 @@
 ---
 Title: "ACTIVE TASKS"
-Version: 1.8
+Version: 1.9
 Last Updated: 2026-07-04
 ---
 
@@ -48,19 +48,21 @@ Boundary:
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | LinkedIn Phase 2 — Café Operations + AI Visibility / Post 05 publication and tracking | Nas LinkedIn Optimisation | NanaCoffee | TBC | [~] |
+| 1 | LinkedIn Phase 2 — Café Operations + AI Visibility / Post 05 first performance inspection | Nas LinkedIn Optimisation | NanaCoffee | TBC | [~] |
 
 ### Task 2 — LinkedIn Phase 2 — Café Operations + AI Visibility
 
 **Status: ACTIVE**
 
-Phase declared 2026-07-04. Post 05 approved by Nas as first strong AI/café operations post.
+Phase declared 2026-07-04. Post 05 published as first live post in Phase 2.
 
 Current stage:
 - Post 03 "Experience is not the same as training" — closed
 - Post 04 "A café team is not trained until standards hold during pressure" — live and reviewed
-- Post 05 — approved, pending publication and tracking
-- Direction: connect real café problems to practical AI visibility solutions
+- Post 05 — published 2026-07-04 — first live post in Phase 2
+- Post 05 connects café pressure/training standards to AI as a visibility layer
+- No Coffee Performance mention. No sales language. No image, link, or tag.
+- Next active step: Post 05 first performance inspection
 - Chris Averill / Oliiv connection: accepted (confirmed Founder at Oliiv)
 - Oliiv thread: warm and active
 
@@ -103,6 +105,7 @@ Boundary:
 | Report sent to Sam (Fields Acton) | 2026-07-01 |
 | Oliiv LinkedIn post 24-hour review — cleared from STALE | 2026-07-04 |
 | Chris Averill connection invite accepted (confirmed Founder at Oliiv) | 2026-07-04 |
+| LinkedIn Post 05 published — first live post in Phase 2 | 2026-07-04 |
 
 ---
 
@@ -111,4 +114,4 @@ Boundary:
 - Use 02_OPERATIONAL_FILES/COMMANDS.md as the command reference for all sessions.
 - Context OS automation foundation build complete as of 2026-06-27.
 - Fields Acton pilot: report sent 2026-07-01. Awaiting conversion decision.
-- LinkedIn Phase 2 declared 2026-07-04. Direction: Café Operations + AI Visibility.
+- LinkedIn Phase 2 declared 2026-07-04. Post 05 published 2026-07-04. Next: Post 05 first performance inspection.
