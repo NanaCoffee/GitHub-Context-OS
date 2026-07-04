@@ -1,6 +1,6 @@
 ---
 Title: "SHORT TERM CONTEXT"
-Version: 1.5
+Version: 1.6
 Last Updated: 2026-07-04
 ---
 
@@ -15,10 +15,10 @@ This file is updated at the END of every Claude session to preserve continuity.
 - **Date:** 2026-07-04
 - **Project:** Coffee Performance Pilot — Fields Acton
 - **What was accomplished:**
-  - Fields Acton declared as first Coffee Performance pilot candidate by Nas
-  - ACTIVE_TASKS.md updated: Fields Acton — Leak Review delivery loop set as Priority 1 active task
-  - Oliiv LinkedIn review task remains [!] STALE at Priority 2
-  - SHORT_TERM_CONTEXT.md rewritten to reflect current state
+  - Active task corrected: Fields Acton — post-report follow-up / pilot conversion decision
+  - Previous wording (Leak Review delivery loop) was outdated — face-to-face already done, report already sent
+  - ACTIVE_TASKS.md updated to reflect actual current stage
+  - SHORT_TERM_CONTEXT.md rewritten
   - No outreach started, no execution started, no client-facing messages created
 
 ## Claude Operating Behaviour (Current)
@@ -32,16 +32,18 @@ Claude should now:
 
 ## Live Operational Checkpoint
 
-- **Active task:** Fields Acton — Leak Review delivery loop [~]
-- **Next step:** Internal review and delivery planning only
-- **Boundary:** No outreach, no client-facing messages, no new product lane, no execution until controller instructs
+- **Active task:** Fields Acton — post-report follow-up / pilot conversion decision [~]
+- **Face-to-face:** Done
+- **Report sent to Sam:** 2026-07-01
+- **Stage:** Awaiting response / conversion decision
+- **No implementation started**
+- **No assumption that Fields Acton has agreed to proceed**
+- **Boundary:** No outreach unless Nas approves. No client-facing messages, pricing, or new product lane.
 - **Oliiv LinkedIn review:** STALE [!] — awaiting controller confirmation
-- **Oliiv post:** Live (published 2026-06-27)
-- **Founder follow-up DM:** Sent to Chris Averill (2026-06-27)
 
 ## Open Threads
 
-- Fields Acton pilot — internal planning phase, no execution started
+- Fields Acton — awaiting Sam's response to the 2026-07-01 report
 - Oliiv LinkedIn post 24-hour review — STALE, awaiting controller confirmation
 - Status of Chris Averill reply — not checked
 
@@ -59,6 +61,7 @@ Claude should now:
 | 2026-06-27 | Added Usage Limit / Session Close Protocol | Protect progress before context/usage limits |
 | 2026-07-04 | Marked Oliiv review task [!] STALE | Task overdue, no controller confirmation, not executed |
 | 2026-07-04 | Declared Fields Acton as Priority 1 active task | First CP pilot candidate confirmed by Nas |
+| 2026-07-04 | Corrected task wording to post-report follow-up | Face-to-face done, report sent 2026-07-01, delivery loop framing was outdated |
 
 ---
 
