@@ -1,6 +1,6 @@
 ---
 Title: "SHORT TERM CONTEXT"
-Version: 1.6
+Version: 1.7
 Last Updated: 2026-07-04
 ---
 
@@ -13,13 +13,17 @@ This file is updated at the END of every Claude session to preserve continuity.
 ## Last Session Summary
 
 - **Date:** 2026-07-04
-- **Project:** Coffee Performance Pilot — Fields Acton
+- **Project:** Nas LinkedIn Optimisation — Café Operations + AI Visibility Phase
 - **What was accomplished:**
-  - Active task corrected: Fields Acton — post-report follow-up / pilot conversion decision
-  - Previous wording (Leak Review delivery loop) was outdated — face-to-face already done, report already sent
-  - ACTIVE_TASKS.md updated to reflect actual current stage
-  - SHORT_TERM_CONTEXT.md rewritten
-  - No outreach started, no execution started, no client-facing messages created
+  - LinkedIn chat confirmed reserved for LinkedIn production only
+  - Post 03 "Experience is not the same as training" — closed
+  - Post 04 "A café team is not trained until standards hold during pressure" — live and reviewed
+  - Post 05 approved by Nas as first strong AI/café operations post
+  - New LinkedIn phase declared: Café Operations + AI Visibility
+  - Direction: connect real café problems to practical AI visibility solutions
+  - Chris Averill / Oliiv thread confirmed warm and active (not stale)
+  - Chris Averill connection invite accepted — confirmed Founder at Oliiv before accepting
+  - No Coffee Performance public mention. No sales language. No offers. No booking links.
 
 ## Claude Operating Behaviour (Current)
 
@@ -32,20 +36,26 @@ Claude should now:
 
 ## Live Operational Checkpoint
 
-- **Active task:** Fields Acton — post-report follow-up / pilot conversion decision [~]
-- **Face-to-face:** Done
-- **Report sent to Sam:** 2026-07-01
-- **Stage:** Awaiting response / conversion decision
-- **No implementation started**
-- **No assumption that Fields Acton has agreed to proceed**
-- **Boundary:** No outreach unless Nas approves. No client-facing messages, pricing, or new product lane.
-- **Oliiv LinkedIn review:** STALE [!] — awaiting controller confirmation
+- **Active task — Priority 1:** Fields Acton — post-report follow-up / pilot conversion decision [~]
+  - Face-to-face: Done
+  - Report sent to Sam: 2026-07-01
+  - Stage: Awaiting response / conversion decision
+  - No implementation started
+  - No assumption that Fields Acton has agreed to proceed
+  - Boundary: No outreach unless Nas approves. No client-facing messages, pricing, or new product lane.
+
+- **Active task — Priority 2:** LinkedIn Phase 2 — Café Operations + AI Visibility [~]
+  - Post 05 approved and ready for publication
+  - Direction: connect real café problems to practical AI visibility solutions
+  - Chris Averill / Oliiv thread: warm and active
+  - Chris Averill connection: accepted (confirmed Founder at Oliiv)
+  - No Coffee Performance mention. No sales language. No offers.
 
 ## Open Threads
 
 - Fields Acton — awaiting Sam's response to the 2026-07-01 report
-- Oliiv LinkedIn post 24-hour review — STALE, awaiting controller confirmation
-- Status of Chris Averill reply — not checked
+- LinkedIn Post 05 — approved, pending publication and tracking
+- Chris Averill / Oliiv — connection accepted, thread warm
 
 ## Recent Decisions
 
@@ -59,9 +69,10 @@ Claude should now:
 | 2026-06-27 | Added GitHub Context Update Rule | Preserve session state and prevent context loss |
 | 2026-06-27 | Added Token Efficiency Start Protocol | Load minimum context at session start |
 | 2026-06-27 | Added Usage Limit / Session Close Protocol | Protect progress before context/usage limits |
-| 2026-07-04 | Marked Oliiv review task [!] STALE | Task overdue, no controller confirmation, not executed |
-| 2026-07-04 | Declared Fields Acton as Priority 1 active task | First CP pilot candidate confirmed by Nas |
 | 2026-07-04 | Corrected task wording to post-report follow-up | Face-to-face done, report sent 2026-07-01, delivery loop framing was outdated |
+| 2026-07-04 | Declared Fields Acton as Priority 1 active task | First CP pilot candidate confirmed by Nas |
+| 2026-07-04 | Declared LinkedIn Phase 2 — Café Operations + AI Visibility | Post 05 approved, Chris Averill connection accepted, Oliiv thread active |
+| 2026-07-04 | Cleared Oliiv LinkedIn review STALE status | Thread confirmed warm, connection accepted, task updated |
 
 ---
 
