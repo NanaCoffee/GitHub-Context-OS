@@ -1,3 +1,4 @@
+---
 # CHANGELOG
 
 ## GitHub Context OS — Change Log
@@ -14,12 +15,13 @@ Types: `INIT` `ADD` `UPDATE` `FIX` `RESET` `ESCALATION` `ARCHIVE`
 ### 2026-07-05
 | Type | Description | Files Affected |
 |------|-------------|----------------|
+| UPDATE | Post 06 published to LinkedIn. Title: Milk Waste AI Workflow. Published: 2026-07-05 at 20:13 BST. Profile: Geoffrey Osei-Kofi. Visibility: Anyone / Public. Format: Text-only. Hashtags: #coffee #cafeoperations #AI. Critical wording confirmed: "£18 of saleable product lost each day". Theme: milk waste as financial signal, AI workflow for early detection and pattern recognition. Boundary confirmed: no Coffee Performance mention, no sales language, no offer, no image, no link, no tag, no mention. | SHORT_TERM_CONTEXT.md, ACTIVE_TASKS.md |
+| UPDATE | Drive file status updated from DRAFT — Candidate to POSTED — Live. File renamed from LinkedIn_Post_06_Milk_Waste_AI_Workflow_DRAFT_V01_2026-07-05 to LinkedIn_Post_06_Milk_Waste_AI_Workflow_POSTED_V01_2026-07-05. | ACTIVE_TASKS.md, SHORT_TERM_CONTEXT.md |
+| UPDATE | Active LinkedIn task moved from Post 06 approval/posting preparation to Post 06 first performance inspection. Inspection timing: approximately 2 hours from posting. Secondary Post 05 72-hour check remains pending. | ACTIVE_TASKS.md, SHORT_TERM_CONTEXT.md |
 | UPDATE | Post 05 official 23-hour baseline review completed. Metrics: 171 impressions, 118 members reached, 1 reaction, 0 comments, 0 reposts, 0 saves, 0 profile viewers, 1 follower gained. Total followers: 140. | SHORT_TERM_CONTEXT.md, ACTIVE_TASKS.md |
 | UPDATE | Post 05 audience demographics captured. Industry: Hospitality 36%. Seniority: Senior 27%. Job title: Barista 14%. Location: Dubai 8%. Company size: 10,001+ employees 14%. Phase 2 Café Operations + AI Visibility direction qualitatively validated. | SHORT_TERM_CONTEXT.md, ACTIVE_TASKS.md |
 | ADD | Post 06 candidate draft saved to Google Drive. Title: Milk Waste AI Workflow. Status: DRAFT — Candidate. Drive path: Coffee Performance Core / 04_Linkedin / Phase_2_Cafe_Operations_AI_Visibility / LinkedIn_Post_06_Milk_Waste_AI_Workflow_DRAFT_V01_2026-07-05. No Coffee Performance mention. No sales language. | SHORT_TERM_CONTEXT.md, ACTIVE_TASKS.md |
 | UPDATE | Active LinkedIn task updated from Post 05 first performance inspection to Post 06 approval/posting preparation. Secondary follow-up: 72-hour Post 05 check before permanent close. | ACTIVE_TASKS.md, SHORT_TERM_CONTEXT.md |
-
-
 
 ### 2026-07-04 (session 3)
 | Type | Description | Files Affected |
