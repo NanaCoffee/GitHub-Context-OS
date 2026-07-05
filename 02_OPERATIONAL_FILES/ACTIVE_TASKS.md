@@ -1,7 +1,7 @@
 ---
 Title: "ACTIVE TASKS"
-Version: 1.9
-Last Updated: 2026-07-04
+Version: 2.0
+Last Updated: 2026-07-05
 ---
 
 ## Task Board
@@ -48,7 +48,7 @@ Boundary:
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | LinkedIn Phase 2 — Café Operations + AI Visibility / Post 05 first performance inspection | Nas LinkedIn Optimisation | NanaCoffee | TBC | [~] |
+| 1 | LinkedIn Phase 2 — Post 06 approval/posting preparation | Nas LinkedIn Optimisation | NanaCoffee | TBC | [~] |
 
 ### Task 2 — LinkedIn Phase 2 — Café Operations + AI Visibility
 
@@ -59,10 +59,14 @@ Phase declared 2026-07-04. Post 05 published as first live post in Phase 2.
 Current stage:
 - Post 03 "Experience is not the same as training" — closed
 - Post 04 "A café team is not trained until standards hold during pressure" — live and reviewed
-- Post 05 — published 2026-07-04 — first live post in Phase 2
-- Post 05 connects café pressure/training standards to AI as a visibility layer
-- No Coffee Performance mention. No sales language. No image, link, or tag.
-- Next active step: Post 05 first performance inspection
+- Post 05 — published 2026-07-04 — official 23-hour baseline review complete (2026-07-05)
+- Post 05 metrics: 171 impressions, 118 members reached, 1 reaction, 0 comments, 0 reposts, 0 saves, 1 follower gained
+- Post 05 demographics: Hospitality 36%, Senior 27%, Barista 14%, Dubai 8%, 10,001+ employees 14%
+- Phase 2 direction qualitatively validated — post reached hospitality, senior, and front-line café roles
+- Post 06 candidate saved to Drive: Milk Waste AI Workflow — DRAFT Candidate
+- Drive path: Coffee Performance Core / 04_Linkedin / Phase_2_Cafe_Operations_AI_Visibility / LinkedIn_Post_06_Milk_Waste_AI_Workflow_DRAFT_V01_2026-07-05
+- Next active step: Post 06 approval and posting preparation
+- Secondary follow-up: Run one 72-hour Post 05 check before closing Post 05 permanently
 - Chris Averill / Oliiv connection: accepted (confirmed Founder at Oliiv)
 - Oliiv thread: warm and active
 
@@ -106,6 +110,8 @@ Boundary:
 | Oliiv LinkedIn post 24-hour review — cleared from STALE | 2026-07-04 |
 | Chris Averill connection invite accepted (confirmed Founder at Oliiv) | 2026-07-04 |
 | LinkedIn Post 05 published — first live post in Phase 2 | 2026-07-04 |
+| Post 05 official 23-hour baseline review completed — metrics and demographics captured | 2026-07-05 |
+| Post 06 candidate draft saved to Drive — Milk Waste AI Workflow | 2026-07-05 |
 
 ---
 
@@ -114,4 +120,5 @@ Boundary:
 - Use 02_OPERATIONAL_FILES/COMMANDS.md as the command reference for all sessions.
 - Context OS automation foundation build complete as of 2026-06-27.
 - Fields Acton pilot: report sent 2026-07-01. Awaiting conversion decision.
-- LinkedIn Phase 2 declared 2026-07-04. Post 05 published 2026-07-04. Next: Post 05 first performance inspection.
+- LinkedIn Phase 2 declared 2026-07-04. Post 05 official review complete 2026-07-05. Next: Post 06 approval/posting preparation.
+- Post 05 control note: do not over-interpret metrics. 171 impressions at 140 followers with no boosting is a baseline read, not a viral signal.
