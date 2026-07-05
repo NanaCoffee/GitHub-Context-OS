@@ -1,6 +1,6 @@
 ---
 Title: "ACTIVE TASKS"
-Version: 2.0
+Version: 2.1
 Last Updated: 2026-07-05
 ---
 
@@ -48,7 +48,7 @@ Boundary:
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | LinkedIn Phase 2 — Post 06 approval/posting preparation | Nas LinkedIn Optimisation | NanaCoffee | TBC | [~] |
+| 1 | LinkedIn Phase 2 — Post 06 first performance inspection | Nas LinkedIn Optimisation | NanaCoffee | TBC | [~] |
 
 ### Task 2 — LinkedIn Phase 2 — Café Operations + AI Visibility
 
@@ -63,9 +63,11 @@ Current stage:
 - Post 05 metrics: 171 impressions, 118 members reached, 1 reaction, 0 comments, 0 reposts, 0 saves, 1 follower gained
 - Post 05 demographics: Hospitality 36%, Senior 27%, Barista 14%, Dubai 8%, 10,001+ employees 14%
 - Phase 2 direction qualitatively validated — post reached hospitality, senior, and front-line café roles
-- Post 06 candidate saved to Drive: Milk Waste AI Workflow — DRAFT Candidate
-- Drive path: Coffee Performance Core / 04_Linkedin / Phase_2_Cafe_Operations_AI_Visibility / LinkedIn_Post_06_Milk_Waste_AI_Workflow_DRAFT_V01_2026-07-05
-- Next active step: Post 06 approval and posting preparation
+- Post 06 published: 2026-07-05 at 20:13 BST — Milk Waste AI Workflow
+- Post 06 visibility: Anyone / Public | Format: Text-only | Hashtags: #coffee #cafeoperations #AI
+- Post 06 critical wording confirmed: "£18 of saleable product lost each day"
+- Drive path: Coffee Performance Core / 04_Linkedin / Phase_2_Cafe_Operations_AI_Visibility / LinkedIn_Post_06_Milk_Waste_AI_Workflow_POSTED_V01_2026-07-05
+- Next active step: Post 06 first performance inspection after approximately 2 hours from posting
 - Secondary follow-up: Run one 72-hour Post 05 check before closing Post 05 permanently
 - Chris Averill / Oliiv connection: accepted (confirmed Founder at Oliiv)
 - Oliiv thread: warm and active
@@ -90,6 +92,8 @@ Boundary:
 
 | Task | Completed Date |
 |------|----------------|
+| LinkedIn Post 06 published — Milk Waste AI Workflow — 2026-07-05 at 20:13 BST | 2026-07-05 |
+| Drive file updated from DRAFT to POSTED — LinkedIn_Post_06_Milk_Waste_AI_Workflow_POSTED_V01_2026-07-05 | 2026-07-05 |
 | Created GitHub-Context-OS repository | 2026-06-17 |
 | Updated CONTEXT_LOADING_ORDER.md to v2.0 | 2026-06-17 |
 | Aligned SESSION_INIT.md to v2.0 | 2026-06-17 |
@@ -120,5 +124,5 @@ Boundary:
 - Use 02_OPERATIONAL_FILES/COMMANDS.md as the command reference for all sessions.
 - Context OS automation foundation build complete as of 2026-06-27.
 - Fields Acton pilot: report sent 2026-07-01. Awaiting conversion decision.
-- LinkedIn Phase 2 declared 2026-07-04. Post 05 official review complete 2026-07-05. Next: Post 06 approval/posting preparation.
+- LinkedIn Phase 2 declared 2026-07-04. Post 06 published 2026-07-05 at 20:13 BST. Next: Post 06 first performance inspection after approximately 2 hours from posting.
 - Post 05 control note: do not over-interpret metrics. 171 impressions at 140 followers with no boosting is a baseline read, not a viral signal.
