@@ -12,6 +12,13 @@ Types: `INIT` `ADD` `UPDATE` `FIX` `RESET` `ESCALATION` `ARCHIVE`
 
 ## 2026
 
+### 2026-07-08
+| Type | Description | Files Affected |
+|------|-------------|----------------|
+| UPDATE | Post 05 4-day inspection completed. Metrics: 325 impressions, 235 members reached, 1 reaction (Like × 1, 100%), 0 comments, 0 reposts, 0 saves, 0 sends, 0 profile viewers, 1 follower gained. Reaction detail: Top job title: Founder. Top location: Columbus, Ohio Metropolitan Area. Top industry: Legal Services. Demographics (All): Hospitality 33%, Entry 30%, Barista 15%, 51-200 employees 12%, Dubai 11%. Growth from 23h baseline: +90% impressions, +99% members reached. No new engagement. | SHORT_TERM_CONTEXT.md, ACTIVE_TASKS.md |
+| UPDATE | Post 05 closed permanently. Phase 2 audience pattern consistent at 4 days: Hospitality industry, Entry seniority, Barista job title. | ACTIVE_TASKS.md, SHORT_TERM_CONTEXT.md |
+| UPDATE | Active LinkedIn task updated to Post 06 23-hour baseline inspection [OVERDUE]. Was due 2026-07-06 ~19:00-21:00 BST. Next active step: run as soon as possible. | ACTIVE_TASKS.md, SHORT_TERM_CONTEXT.md |
+
 ### 2026-07-05
 | Type | Description | Files Affected |
 |------|-------------|----------------|
