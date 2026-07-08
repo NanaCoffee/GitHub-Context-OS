@@ -1,7 +1,7 @@
 ---
 Title: "ACTIVE TASKS"
-Version: 2.1
-Last Updated: 2026-07-05
+Version: 2.2
+Last Updated: 2026-07-08
 ---
 
 ## Task Board
@@ -48,7 +48,7 @@ Boundary:
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | LinkedIn Phase 2 — Post 06 first performance inspection | Nas LinkedIn Optimisation | NanaCoffee | TBC | [~] |
+| 1 | LinkedIn Phase 2 — Post 06 23-hour baseline inspection [OVERDUE] | Nas LinkedIn Optimisation | NanaCoffee | TBC | [~] |
 
 ### Task 2 — LinkedIn Phase 2 — Café Operations + AI Visibility
 
@@ -59,16 +59,21 @@ Phase declared 2026-07-04. Post 05 published as first live post in Phase 2.
 Current stage:
 - Post 03 "Experience is not the same as training" — closed
 - Post 04 "A café team is not trained until standards hold during pressure" — live and reviewed
-- Post 05 — published 2026-07-04 — official 23-hour baseline review complete (2026-07-05)
-- Post 05 metrics: 171 impressions, 118 members reached, 1 reaction, 0 comments, 0 reposts, 0 saves, 1 follower gained
-- Post 05 demographics: Hospitality 36%, Senior 27%, Barista 14%, Dubai 8%, 10,001+ employees 14%
-- Phase 2 direction qualitatively validated — post reached hospitality, senior, and front-line café roles
+- Post 05 — published 2026-07-04 — CLOSED
+  - 23h baseline (2026-07-05): 171 impressions, 118 members reached, 1 reaction, 0 comments, 0 reposts, 0 saves, 1 follower gained
+  - 4-day review (2026-07-08): 325 impressions, 235 members reached, 1 reaction, 0 comments, 0 reposts, 0 saves, 0 profile viewers, 1 follower gained
+  - 4-day demographics: Industry: Hospitality 33%, Seniority: Entry 30%, Job title: Barista 15%, Company size: 51-200 employees 12%, Location: Dubai 11%
+  - Reaction detail: 1 Like (100%). Top job title: Founder. Top location: Columbus, Ohio Metropolitan Area. Top industry: Legal Services.
+  - Post 05 now closed permanently.
 - Post 06 published: 2026-07-05 at 20:13 BST — Milk Waste AI Workflow
 - Post 06 visibility: Anyone / Public | Format: Text-only | Hashtags: #coffee #cafeoperations #AI
 - Post 06 critical wording confirmed: "£18 of saleable product lost each day"
+- Post 06 first inspection: complete (~2h after posting, 2026-07-05) — metrics reported to Nas in session
+- Post 06 second inspection: complete (~9h after posting, 2026-07-05/06) — metrics reported to Nas in session
+- Post 06 23-hour baseline: OVERDUE — was due 2026-07-06 ~19:00-21:00 BST — not yet completed
+- Post 07 visible: "Speed is not the problem in a busy café" — approx. 21h old at time of Post 05 inspection (2026-07-08) — no action taken
+- Next active step: Post 06 23-hour baseline inspection (run as soon as possible)
 - Drive path: Coffee Performance Core / 04_Linkedin / Phase_2_Cafe_Operations_AI_Visibility / LinkedIn_Post_06_Milk_Waste_AI_Workflow_POSTED_V01_2026-07-05
-- Next active step: Post 06 first performance inspection after approximately 2 hours from posting
-- Secondary follow-up: Run one 72-hour Post 05 check before closing Post 05 permanently
 - Chris Averill / Oliiv connection: accepted (confirmed Founder at Oliiv)
 - Oliiv thread: warm and active
 
@@ -92,6 +97,7 @@ Boundary:
 
 | Task | Completed Date |
 |------|----------------|
+| Post 05 4-day inspection completed — 325 impressions, 235 reached, 1 reaction, 1 follower gained. Post 05 closed permanently. | 2026-07-08 |
 | LinkedIn Post 06 published — Milk Waste AI Workflow — 2026-07-05 at 20:13 BST | 2026-07-05 |
 | Drive file updated from DRAFT to POSTED — LinkedIn_Post_06_Milk_Waste_AI_Workflow_POSTED_V01_2026-07-05 | 2026-07-05 |
 | Created GitHub-Context-OS repository | 2026-06-17 |
@@ -124,5 +130,5 @@ Boundary:
 - Use 02_OPERATIONAL_FILES/COMMANDS.md as the command reference for all sessions.
 - Context OS automation foundation build complete as of 2026-06-27.
 - Fields Acton pilot: report sent 2026-07-01. Awaiting conversion decision.
-- LinkedIn Phase 2 declared 2026-07-04. Post 06 published 2026-07-05 at 20:13 BST. Next: Post 06 first performance inspection after approximately 2 hours from posting.
-- Post 05 control note: do not over-interpret metrics. 171 impressions at 140 followers with no boosting is a baseline read, not a viral signal.
+- LinkedIn Phase 2 declared 2026-07-04. Post 06 published 2026-07-05 at 20:13 BST. Post 06 first and second inspections done (metrics in session only). Post 06 23-hour baseline OVERDUE (due 2026-07-06). Next: Post 06 23-hour baseline inspection as soon as possible.
+- Post 05 CLOSED — final metrics at 4 days: 325 impressions, 235 reached, 1 reaction. Phase 2 audience pattern consistent: Hospitality industry, Entry seniority, Barista job title. Do not over-interpret metrics.
