@@ -1,6 +1,6 @@
 ---
 Title: "SHORT TERM CONTEXT"
-Version: 3.0
+Version: 4.0
 Last Updated: 2026-07-08
 ---
 
@@ -15,13 +15,15 @@ This file is updated at the END of every Claude session to preserve continuity.
 - **Date:** 2026-07-08
 - **Project:** Nas LinkedIn Optimisation — Café Operations + AI Visibility Phase
 - **What was accomplished:**
-  - Post 06 first performance inspection completed (~2 hours after publishing at 20:13 BST, 2026-07-05) — metrics reported to Nas in session
-  - Post 06 second inspection completed (~9 hours after publishing, 2026-07-05/06) — metrics reported to Nas in session
-  - Post 05 4-day inspection completed (2026-07-08)
-  - Post 05 4-day metrics: 325 impressions, 235 members reached, 1 reaction, 0 comments, 0 reposts, 0 saves, 0 sends, 0 profile viewers, 1 follower gained
-  - Post 05 4-day demographics: Industry: Hospitality 33%, Seniority: Entry 30%, Job title: Barista 15%, Company size: 51-200 employees 12%, Location: Dubai 11%
-  - Post 05 reaction detail: 1 Like (100%). Top job title: Founder. Top location: Columbus, Ohio Metropolitan Area. Top industry: Legal Services.
-  - Post 05 growth from 23h baseline: 171 → 325 impressions (+90%), 118 → 235 members reached (+99%). No new engagement beyond baseline. Post now closed permanently.
+  - Post 06 delayed baseline / current performance inspection completed (2026-07-08)
+  - Note: True 23-hour window was missed (due 2026-07-06 ~19:00-21:00 BST). This inspection is a delayed reading at ~3 days, not a true 23-hour baseline.
+  - Post 06 age at inspection: LinkedIn showed "2d" (~3 days from 20:13 BST on 2026-07-05)
+  - Post 06 delayed baseline metrics: 121 impressions, 73 members reached, 1 reaction, 0 comments, 0 reposts, 0 saves, 0 sends, 0 profile viewers, 0 followers gained
+  - Post 06 reaction detail: 1 Like (100%). Top job title: Founder. Top location: Columbus, Ohio Metropolitan Area. Top industry: Legal Services.
+  - Post 06 demographics (All): Seniority Entry 27%, Company size 10,001+ employees 20%, Industry Hospitality 19%, Location London Area UK 11%
+  - Post 06 post text confirmed clean: no edits, no image, no link, no tag. Hashtags confirmed: #coffee #cafeoperations #AI
+  - Post 05 remains CLOSED (4-day final: 325 impressions, 235 reached, 1 reaction, 1 follower gained)
+  - Post 07 visible during session: "Speed is not the problem in a busy café" — no action taken. Awaiting controller decision.
 
 ## Claude Operating Behaviour (Current)
 
@@ -42,23 +44,22 @@ Claude should now:
   - No assumption that Fields Acton has agreed to proceed
   - Boundary: No outreach unless Nas approves. No client-facing messages, pricing, or new product lane.
 
-- **Active task — Priority 2:** LinkedIn Phase 2 — Post 06 23-hour baseline inspection [OVERDUE] [~]
-  - Post 05 official 23-hour review: complete (2026-07-05)
-  - Post 05 4-day review: complete (2026-07-08) — 325 impressions, 235 reached, 1 reaction, 1 follower gained. Post now CLOSED.
+- **Active task — Priority 2:** LinkedIn Phase 2 — Post 06 monitoring / Post 07 awaiting controller decision [~]
+  - Post 05: CLOSED — final metrics at 4 days: 325 impressions, 235 reached, 1 reaction, 1 follower gained
   - Post 06 published: 2026-07-05 at 20:13 BST — Milk Waste AI Workflow
-  - Post 06 first inspection: complete (~2h after posting, 2026-07-05) — metrics in session only
-  - Post 06 second inspection: complete (~9h after posting, 2026-07-05/06) — metrics in session only
-  - Post 06 23-hour baseline: OVERDUE — was due 2026-07-06 ~19:00-21:00 BST
-  - Post 07 visible: "Speed is not the problem in a busy café" — approx. published 2026-07-07/08 — no action taken
-  - Next step: Post 06 23-hour baseline inspection (run as soon as possible)
+  - Post 06 delayed baseline (2026-07-08, ~3 days old): 121 impressions, 73 members reached, 1 reaction, 0 followers gained
+  - Post 06 note: 23-hour window was missed. This is a delayed reading only.
+  - Post 06 performance note: 121 impressions at ~3 days. Same reactor profile (Founder, Legal Services, Columbus OH) as Post 05. No new followers. Lower reach than Post 05 at equivalent stage.
+  - Post 07: "Speed is not the problem in a busy café" — visible, not actioned. Awaiting controller decision.
+  - Next step: Controller decision — close Post 06 and begin Post 07 monitoring, or continue passive monitoring of Post 06.
   - No Coffee Performance mention. No sales language. No offers.
 
 ## Open Threads
 
 - Fields Acton — awaiting Sam's response to the 2026-07-01 report
 - LinkedIn Post 05 — CLOSED. Final metrics (4-day, 2026-07-08): 325 impressions, 235 members reached, 1 reaction, 1 follower gained.
-- LinkedIn Post 06 — published 2026-07-05 at 20:13 BST. First and second inspections done (metrics in session). 23-hour baseline OVERDUE.
-- LinkedIn Post 07 — visible at ~21h old. Opening: "Speed is not the problem in a busy café." No action taken yet.
+- LinkedIn Post 06 — Delayed baseline complete (2026-07-08): 121 impressions, 73 members reached, 1 reaction, 0 followers. Awaiting close decision or continued passive monitoring.
+- LinkedIn Post 07 — visible, not actioned. Opening: "Speed is not the problem in a busy café." Awaiting controller decision.
 - Chris Averill / Oliiv — connection accepted, thread warm
 
 ## Recent Decisions
@@ -84,7 +85,8 @@ Claude should now:
 | 2026-07-05 | Post 06 published to LinkedIn | Published 2026-07-05 at 20:13 BST. Text-only. Anyone / Public. Critical wording confirmed: "£18 of saleable product lost each day". Drive file updated to POSTED. |
 | 2026-07-05 | Active LinkedIn task moved to Post 06 first performance inspection | Post 06 published. Next step is first performance inspection after approximately 2 hours. |
 | 2026-07-08 | Post 05 4-day inspection completed — Post 05 now closed permanently | Final metrics: 325 impressions, 235 members reached, 1 reaction, 1 follower gained. No new engagement. |
-| 2026-07-08 | Post 06 23-hour baseline noted as OVERDUE | Was due 2026-07-06 ~19:00-21:00 BST. Not completed. Next active step. |
+| 2026-07-08 | Post 06 delayed baseline inspection completed | 23-hour window was missed. Delayed reading at ~3 days: 121 impressions, 73 members reached, 1 reaction, 0 followers gained. |
+| 2026-07-08 | Post 07 noted as visible — no action taken | Opening: "Speed is not the problem in a busy café." Awaiting controller decision on Post 06 close and Post 07 activation. |
 
 ---
 
