@@ -1,7 +1,7 @@
 ---
 Title: "SHORT TERM CONTEXT"
-Version: 4.0
-Last Updated: 2026-07-08
+Version: 5.0
+Last Updated: 2026-07-09
 ---
 
 ## Current Session Context
@@ -12,55 +12,66 @@ This file is updated at the END of every Claude session to preserve continuity.
 
 ## Last Session Summary
 
-- **Date:** 2026-07-08
+- **Date:** 2026-07-09
 - **Project:** Nas LinkedIn Optimisation — Café Operations + AI Visibility Phase
 - **What was accomplished:**
-  - Post 06 delayed baseline / current performance inspection completed (2026-07-08)
-  - Note: True 23-hour window was missed (due 2026-07-06 ~19:00-21:00 BST). This inspection is a delayed reading at ~3 days, not a true 23-hour baseline.
-  - Post 06 age at inspection: LinkedIn showed "2d" (~3 days from 20:13 BST on 2026-07-05)
-  - Post 06 delayed baseline metrics: 121 impressions, 73 members reached, 1 reaction, 0 comments, 0 reposts, 0 saves, 0 sends, 0 profile viewers, 0 followers gained
-  - Post 06 reaction detail: 1 Like (100%). Top job title: Founder. Top location: Columbus, Ohio Metropolitan Area. Top industry: Legal Services.
-  - Post 06 demographics (All): Seniority Entry 27%, Company size 10,001+ employees 20%, Industry Hospitality 19%, Location London Area UK 11%
-  - Post 06 post text confirmed clean: no edits, no image, no link, no tag. Hashtags confirmed: #coffee #cafeoperations #AI
-  - Post 05 remains CLOSED (4-day final: 325 impressions, 235 reached, 1 reaction, 1 follower gained)
-  - Post 07 visible during session: "Speed is not the problem in a busy café" — no action taken. Awaiting controller decision.
+  - Post 07 inspection completed (LinkedIn showed "2d" at time of inspection)
+  - Post 07 opening: "Speed is not the problem in a busy café."
+  - Post 07 theme: speed vs flow in café operations; AI as pattern spotting during service, not replacement
+  - Post 07 format: text-only, public, no image, no link, no tag. Hashtags: #coffee #cafeoperations #hospitality
+  - Post 07 metrics at inspection: 86 impressions, 62 members reached, 0 reactions, 0 comments, 0 reposts, 0 saves, 0 sends, 0 profile viewers, 0 followers gained
+  - Post 07 audience demographics: Entry seniority 34%, Hospitality 27%, Barista 18%, 11–50 employees 16%, London Area UK 13%
+  - Post 07 performance read: right audience reaching the relevant operational layer, but zero engagement. Content quality strong but may be too long for early algorithm push. No early reaction/comment trigger.
+  - Post 06 closed by controller decision. Underperformed. No rescue attempt. No self-comment.
+  - Date correction noted: Claude previously approximated "posted approximately 9 July 2026" based on "2d" shown on LinkedIn. This was incorrect. LinkedIn's "2d" is the reliable source. Post 07 posting date not independently confirmed — not stored as a confirmed date.
+
+---
 
 ## Claude Operating Behaviour (Current)
 
 Claude should now:
+
 - Start sessions by reading minimum required context (SESSION_INIT, SHORT_TERM_CONTEXT, ACTIVE_TASKS)
 - Detect stored workflows before asking for repeated instructions
 - Run LinkedIn workflows using the stored LinkedIn Post Execution Loop
 - Check GitHub Context Update Needed: Yes/No after meaningful tasks
 - Save context before usage/context limits or session close when meaningful progress occurred
 
+---
+
 ## Live Operational Checkpoint
 
-- **Active task — Priority 1:** Fields Acton — post-report follow-up / pilot conversion decision [~]
-  - Face-to-face: Done
-  - Report sent to Sam: 2026-07-01
-  - Stage: Awaiting response / conversion decision
-  - No implementation started
-  - No assumption that Fields Acton has agreed to proceed
-  - Boundary: No outreach unless Nas approves. No client-facing messages, pricing, or new product lane.
+**Active task — Priority 1: Fields Acton — post-report follow-up / pilot conversion decision [~]**
 
-- **Active task — Priority 2:** LinkedIn Phase 2 — Post 06 monitoring / Post 07 awaiting controller decision [~]
-  - Post 05: CLOSED — final metrics at 4 days: 325 impressions, 235 reached, 1 reaction, 1 follower gained
-  - Post 06 published: 2026-07-05 at 20:13 BST — Milk Waste AI Workflow
-  - Post 06 delayed baseline (2026-07-08, ~3 days old): 121 impressions, 73 members reached, 1 reaction, 0 followers gained
-  - Post 06 note: 23-hour window was missed. This is a delayed reading only.
-  - Post 06 performance note: 121 impressions at ~3 days. Same reactor profile (Founder, Legal Services, Columbus OH) as Post 05. No new followers. Lower reach than Post 05 at equivalent stage.
-  - Post 07: "Speed is not the problem in a busy café" — visible, not actioned. Awaiting controller decision.
-  - Next step: Controller decision — close Post 06 and begin Post 07 monitoring, or continue passive monitoring of Post 06.
-  - No Coffee Performance mention. No sales language. No offers.
+- Face-to-face: Done
+- Report sent to Sam: 2026-07-01
+- Stage: Awaiting response / conversion decision
+- No implementation started
+- No assumption that Fields Acton has agreed to proceed
+- Boundary: No outreach unless Nas approves. No client-facing messages, pricing, or new product lane.
+
+**Active task — Priority 2: LinkedIn Phase 2 — Post 07 monitoring [~]**
+
+- Post 05: CLOSED — final metrics at 4 days: 325 impressions, 235 reached, 1 reaction, 1 follower gained
+- Post 06: CLOSED (2026-07-09) — delayed baseline (~3 days, 2026-07-08): 121 impressions, 73 members reached, 1 reaction, 0 followers gained. 23-hour window was missed. Underperformed. No rescue attempt. No self-comment.
+- Post 07: inspection completed (LinkedIn showed "2d" at inspection time)
+  - Metrics: 86 impressions, 62 members reached, 0 reactions, 0 comments, 0 reposts, 0 saves, 0 sends, 0 profile viewers, 0 followers gained
+  - Demographics: Entry seniority 34%, Hospitality 27%, Barista 18%, 11–50 employees 16%, London Area UK 13%
+  - Performance: right audience, zero engagement. Content credible but possible distribution ceiling due to no early reaction trigger. Post may be too long for early algorithm push.
+- Next step: Post 07 follow-up review in 24–48 hours. Do not draft or activate Post 08 yet.
+- No Coffee Performance mention. No sales language. No offers.
+
+---
 
 ## Open Threads
 
 - Fields Acton — awaiting Sam's response to the 2026-07-01 report
 - LinkedIn Post 05 — CLOSED. Final metrics (4-day, 2026-07-08): 325 impressions, 235 members reached, 1 reaction, 1 follower gained.
-- LinkedIn Post 06 — Delayed baseline complete (2026-07-08): 121 impressions, 73 members reached, 1 reaction, 0 followers. Awaiting close decision or continued passive monitoring.
-- LinkedIn Post 07 — visible, not actioned. Opening: "Speed is not the problem in a busy café." Awaiting controller decision.
+- LinkedIn Post 06 — CLOSED (2026-07-09). Delayed baseline (2026-07-08, ~3 days): 121 impressions, 73 members reached, 1 reaction, 0 followers. Underperformed. No rescue. No self-comment.
+- LinkedIn Post 07 — ACTIVE. Inspection complete (LinkedIn showed "2d"). Opening: "Speed is not the problem in a busy café." Metrics: 86 impressions, 62 reached, 0 reactions. Follow-up review due in 24–48 hours.
 - Chris Averill / Oliiv — connection accepted, thread warm
+
+---
 
 ## Recent Decisions
 
@@ -86,8 +97,11 @@ Claude should now:
 | 2026-07-05 | Active LinkedIn task moved to Post 06 first performance inspection | Post 06 published. Next step is first performance inspection after approximately 2 hours. |
 | 2026-07-08 | Post 05 4-day inspection completed — Post 05 now closed permanently | Final metrics: 325 impressions, 235 members reached, 1 reaction, 1 follower gained. No new engagement. |
 | 2026-07-08 | Post 06 delayed baseline inspection completed | 23-hour window was missed. Delayed reading at ~3 days: 121 impressions, 73 members reached, 1 reaction, 0 followers gained. |
-| 2026-07-08 | Post 07 noted as visible — no action taken | Opening: "Speed is not the problem in a busy café." Awaiting controller decision on Post 06 close and Post 07 activation. |
+| 2026-07-09 | Post 07 inspection completed | Opening metrics: 86 impressions, 62 reached, 0 reactions. Relevant audience (Hospitality 27%, Barista 18%), zero engagement. Distribution-limited so far. Content may be too long for early algorithm push. |
+| 2026-07-09 | Post 06 closed by controller decision | Underperformed. No rescue attempt. No self-comment. |
+| 2026-07-09 | Post 07 posting date correction applied | Claude previously noted "approximately 9 July 2026" — incorrect. LinkedIn showed "2d" only. Date not independently confirmed and not stored. |
+| 2026-07-09 | Post 08 held | Do not draft or activate until Post 07 follow-up review is complete. |
 
 ---
 
-This file should be rewritten each session, not appended.
+*This file should be rewritten each session, not appended.*
