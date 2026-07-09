@@ -26,6 +26,9 @@ Types: `INIT` `ADD` `UPDATE` `FIX` `RESET` `ESCALATION` `ARCHIVE` `MISTAKE`
 | UPDATE | Post 06 closed by controller decision (2026-07-09). Underperformed. Delayed baseline (~3 days, 2026-07-08): 121 impressions, 73 members reached, 1 reaction, 0 followers. No rescue attempt. No self-comment. | SHORT_TERM_CONTEXT.md, ACTIVE_TASKS.md |
 | FIX | Date correction applied: Claude previously approximated "posted approximately 9 July 2026" based on LinkedIn "2d" indicator. This was incorrect. LinkedIn's "2d" is the reliable source. Post 07 posting date not independently confirmed and not stored as a confirmed date. | SHORT_TERM_CONTEXT.md |
 | UPDATE | Post 08 held. Do not draft or activate until Post 07 follow-up review is complete (due in 24–48 hours). | ACTIVE_TASKS.md |
+| UPDATE | Post 07 follow-up inspection completed (LinkedIn still showed "2d"). Metrics: 87 impressions (+1 from first inspection), 62 members reached (unchanged), 0 reactions, 0 comments, 0 reposts, 0 saves, 0 sends, 0 profile viewers, 0 followers gained. Audience demographics unchanged: Entry seniority 34%, Hospitality 27%, Barista 18%, 11–50 employees 16%, London Area UK 13%. Controller read: flat. +1 impression is noise. Right audience, no amplification. | SHORT_TERM_CONTEXT.md, ACTIVE_TASKS.md |
+| UPDATE | Controller decision: Option B — run final inspection when LinkedIn shows 4d. Compare against Post 05/06 pattern before close. Post 07 remains active monitoring. | SHORT_TERM_CONTEXT.md, ACTIVE_TASKS.md |
+| UPDATE | Post 08 status confirmed HELD. Do not draft, outline, prepare, or activate until after Post 07 4d inspection and controller approval. | ACTIVE_TASKS.md, SHORT_TERM_CONTEXT.md |
 
 ### 2026-07-08
 | Type | Description | Files Affected |
