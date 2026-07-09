@@ -39,6 +39,7 @@ These rules govern how Claude should behave when operating within the GitHub Con
 
 ## Prohibited Actions
 - Do not delete files without explicit user confirmation
+- Do not delete or archive items when instructed to ‘report for approval’ or ‘do not delete/archive yet’ — stop before deletion even if item appears empty or safe
 - Do not share sensitive information from memory files
 - Do not override protocol files without user instruction
 - Do not fabricate data or hallucinate file contents
