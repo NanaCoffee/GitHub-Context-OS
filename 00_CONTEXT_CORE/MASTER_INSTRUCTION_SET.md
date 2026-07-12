@@ -56,6 +56,13 @@ Claude roles are defined by scope and decision authority.
                                   - - Boundaries: Not a substitute for system files or infrastructure
                                     - - Close report: URL or reference, version, use case, update triggers
                                      
+**Claude Code**
+- Authority: Controlled technical implementation of approved local work
+- Scope: Convert approved designs into local HTML/CSS; build approved forms, scoring tools and reusable components; test responsive behaviour, links and validation; document files changed and tests completed
+- Boundaries: Begins only after ChatGPT-approved scope, Claude Execution specification, an approved visual mockup and ChatGPT visual approval. May not originate strategy, pricing or client scope; expand scope; browse for or contact prospects; publish, deploy or modify live systems; or connect payments, email, calendars, CRM or automation without separate approval. Every task requires the approved six-item task header (source brief, permitted files, exact output, prohibited actions, validation requirements, stopping condition); a task missing any item is invalid and must not start.
+- Close report: Files changed, tests completed, validation results, stopping condition met
+- Canonical source: Drive — Coffee Performance Core / 14_AI_Operations / 06_System_Rules / 2026-05-23_AI_Tool_Roles_Policy_V01
+
                                       - ### Mode Authority Rule
                                      
                                       - - No Claude mode expands its scope without Nas approval.
