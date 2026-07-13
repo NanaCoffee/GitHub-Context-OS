@@ -18,6 +18,19 @@ Types: `INIT` `ADD` `UPDATE` `FIX` `RESET` `ESCALATION` `ARCHIVE` `MISTAKE`
 ## 2026
 
 
+### 2026-07-13
+| Type | Description | Files Affected |
+|------|-------------|----------------|
+| UPDATE | GitHub Context OS updated to reflect Post 08 live status (2026-07-13). GitHub update was intentionally held until after publishing confirmation from controller. Active task moved to Post 08 first baseline inspection. Post 07 secondary monitoring preserved. | SHORT_TERM_CONTEXT.md, ACTIVE_TASKS.md, CHANGELOG.md |
+
+### 2026-07-11
+| Type | Description | Files Affected |
+|------|-------------|----------------|
+| UPDATE | Post 08 hold overridden by explicit controller decision. Post 08 published to LinkedIn on 2026-07-11 at approximately 18:23 BST. Published before Post 07 final 7-day closure by explicit controller override. | SHORT_TERM_CONTEXT.md, ACTIVE_TASKS.md |
+| UPDATE | Post 08 published. Opening: "The rush doesn't cause problems." Theme: rush pressure exposes preparation gaps; skilled staff can be forced to absorb problems created before service; memory is not an operating system; preparation protects people and standards. Format: text-only, public, Anyone. No image, no link, no tag. Hashtags: #cafeoperations #hospitality. No Coffee Performance mention. No sales language. Text matched approved audited version exactly. Publishing note: first click on "Start a post" scrolled the feed instead of opening composer; retry worked. No content issue. | SHORT_TERM_CONTEXT.md, ACTIVE_TASKS.md |
+| UPDATE | Post 08 monitoring schedule set: 24h baseline Sunday 12 July 2026 around 18:23 BST; 48h review Monday 13 July 2026 around 18:23 BST; 7-day review Saturday 18 July 2026 around 18:23 BST. Do not edit live post. Do not self-comment. Do not engage manually until first baseline inspection. | ACTIVE_TASKS.md |
+| UPDATE | Active LinkedIn task moved from Post 07-only monitoring to Post 08 first baseline inspection. Post 07 secondary monitoring preserved. Do not close Post 07 unless instructed. | ACTIVE_TASKS.md, SHORT_TERM_CONTEXT.md |
+
 ### 2026-07-09
 | Type | Description | Files Affected |
 |------|-------------|----------------|
