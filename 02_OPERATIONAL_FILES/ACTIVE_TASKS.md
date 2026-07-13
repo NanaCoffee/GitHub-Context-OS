@@ -1,7 +1,7 @@
 ---
 Title: "ACTIVE TASKS"
-Version: 2.5
-Last Updated: 2026-07-09
+Version: 2.6
+Last Updated: 2026-07-13
 ---
 
 ## Task Board
@@ -47,9 +47,9 @@ Fields Acton is the first Coffee Performance pilot candidate.
 
 | # | Task | Project | Owner | Due | Status |
 |---|------|---------|-------|-----|--------|
-| 1 | LinkedIn Phase 2 — Post 07 monitoring / final 4d inspection pending | Nas LinkedIn Optimisation | NanaCoffee | TBC | [~] |
+| 1 | LinkedIn Phase 2 — Post 08 first baseline inspection / Post 07 secondary monitoring | Nas LinkedIn Optimisation | NanaCoffee | TBC | [~] |
 
-### Task 2 — LinkedIn Phase 2 — Café Operations + AI Visibility
+### Task 2 — LinkedIn Phase 2 — Cafe Operations + AI Visibility
 
 **Status: ACTIVE**
 
@@ -65,17 +65,29 @@ Phase declared 2026-07-04. Post 05 published as first live post in Phase 2.
   - Published: 2026-07-05 at 20:13 BST — Milk Waste AI Workflow
   - Delayed baseline (2026-07-08, ~3 days): 121 impressions, 73 members reached, 1 reaction, 0 followers gained
   - Closed by controller decision. Underperformed. No rescue. No self-comment.
-- Post 07 — ACTIVE MONITORING
-  - Opening: "Speed is not the problem in a busy café."
-  - Theme: speed vs flow in café operations; AI as pattern spotting during service, not replacement
+- Post 07 — SECONDARY MONITORING (controller override — not yet closed)
+  - Opening: "Speed is not the problem in a busy cafe."
+  - Theme: speed vs flow in cafe operations; AI as pattern spotting during service, not replacement
   - Format: text-only, public, no image, no link, no tag. Hashtags: #coffee #cafeoperations #hospitality
   - First inspection (LinkedIn showed "2d"): 86 impressions, 62 members reached, 0 reactions, 0 engagement, 0 profile activity
   - Follow-up inspection (LinkedIn still showed "2d"): 87 impressions (+1), 62 members reached (unchanged), 0 reactions, 0 engagement, 0 profile activity
-  - Audience (unchanged across both inspections): Entry seniority 34%, Hospitality 27%, Barista 18%, 11–50 employees 16%, London Area UK 13%
-  - Controller read: flat. +1 impression is noise. Right audience, no amplification. Hook/structure may be too slow for early engagement trigger.
-  - Controller decision: Option B — run final inspection when LinkedIn shows 4d. Compare against Post 05/06 pattern before close.
-- Post 08 — HELD
-  - Do not draft, outline, prepare, or activate until after Post 07 4d inspection and controller approval.
+  - Audience (unchanged across both inspections): Entry seniority 34%, Hospitality 27%, Barista 18%, 11-50 employees 16%, London Area UK 13%
+  - Controller read: flat. +1 impression is noise. Right audience, no amplification.
+  - Note: Post 08 published before Post 07 final 7-day closure by explicit controller override. Do not close Post 07 unless instructed.
+- Post 08 — POSTED — Live
+  - Published: 2026-07-11 at approximately 18:23 BST
+  - Opening: "The rush doesn't cause problems."
+  - Theme: rush pressure exposes preparation gaps; skilled staff can be forced to absorb problems created before service; memory is not an operating system; preparation protects people and standards.
+  - Format: text-only, public, no image, no link, no tag
+  - Hashtags: #cafeoperations #hospitality
+  - Coffee Performance mention: No. Sales language: No. Offer/booking/consulting language: No.
+  - Text matched approved audited version exactly.
+  - Publishing note: first click on "Start a post" scrolled the feed instead of opening composer; retry worked. No content issue.
+  - Do not edit the live post. Do not self-comment. Do not engage manually until first baseline inspection.
+  - Monitoring schedule:
+    - 24h baseline: Sunday 12 July 2026, around 18:23 BST
+    - 48h review: Monday 13 July 2026, around 18:23 BST
+    - 7-day review: Saturday 18 July 2026, around 18:23 BST
 - Drive path: Coffee Performance Core / 04_Linkedin / Phase_2_Cafe_Operations_AI_Visibility /
 - Chris Averill / Oliiv connection: accepted (confirmed Founder at Oliiv)
 - Oliiv thread: warm and active
@@ -86,7 +98,9 @@ Phase declared 2026-07-04. Post 05 published as first live post in Phase 2.
 - No sales language
 - No offers, booking links, or consulting language
 - LinkedIn chat reserved for LinkedIn production only
-- Post 08 is held — no drafting, outlining, or preparation
+- Do not edit the live Post 08
+- Do not self-comment on Post 08
+- Do not close Post 07 unless instructed
 
 ---
 
@@ -102,6 +116,7 @@ Phase declared 2026-07-04. Post 05 published as first live post in Phase 2.
 
 | Task | Completed Date |
 |------|---------------|
+| Post 08 published to LinkedIn — "The rush doesn't cause problems." — 2026-07-11 at approximately 18:23 BST. Text-only. Public. Hold overridden by controller. | 2026-07-11 |
 | Post 07 follow-up inspection completed — 87 impressions, 62 reached, 0 reactions. Still "2d". Flat. Controller decision: Option B, final 4d check before close. | 2026-07-09 |
 | Post 07 first inspection completed — 86 impressions, 62 reached, 0 reactions, 0 followers. | 2026-07-09 |
 | Post 06 closed by controller decision — underperformed, no rescue, no self-comment. | 2026-07-09 |
@@ -120,6 +135,7 @@ Phase declared 2026-07-04. Post 05 published as first live post in Phase 2.
 
 - Use 02_OPERATIONAL_FILES/COMMANDS.md as the command reference for all sessions.
 - Fields Acton pilot: report sent 2026-07-01. Awaiting conversion decision.
-- Post 07 follow-up inspection complete (2026-07-09, LinkedIn still "2d"): 87 impressions, 62 reached, 0 reactions. Flat. Final 4d check pending before close.
-- Post 08 is HELD. Do not draft, outline, prepare, or activate until Post 07 4d inspection and controller approval.
+- Post 08 is LIVE. First baseline inspection due Sunday 12 July 2026 around 18:23 BST. 48h review Monday 13 July 2026. Do not edit live post. Do not self-comment.
+- Post 07 secondary monitoring active. Not yet closed. Final closure pending controller instruction.
+- Post 08 hold was overridden intentionally by controller on 2026-07-11. Post 07 closure was not a prerequisite.
 - Phase 2 audience pattern consistent: Hospitality industry, Entry seniority, Barista job title. Engagement remains low across posts.
